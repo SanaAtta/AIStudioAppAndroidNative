@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+
+    <!-- Soft circle backdrop for splash icon safe zone -->
+    <path
+        android:fillColor="#132033"
+        android:pathData="M144,144m-96,0a96,96 0,1 1,192 0a96,96 0,1 1,-192 0" />
+
+    <!-- Image frame -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M88,100h112c6.6,0 12,5.4 12,12v64c0,6.6 -5.4,12 -12,12H88c-6.6,0 -12,-5.4 -12,-12v-64c0,-6.6 5.4,-12 12,-12z"
+        android:strokeWidth="8"
+        android:strokeColor="#2DD4BF" />
+
+    <!-- Mountain / landscape silhouette -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M100,168l28,-32 20,18 24,-36 40,50H100z"
+        android:fillAlpha="0.9" />
+
+    <!-- Spark / AI accent -->
+    <path
+        android:fillColor="#E0FBF7"
+        android:pathData="M196,92l4.5,10.5L211,107l-10.5,4.5L196,122l-4.5,-10.5L181,107l10.5,-4.5z" />
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M214,74l2.8,6.6L223.4,83.4l-6.6,2.8L214,93l-2.8,-6.8L204.6,83.4l6.6,-2.8z" />
+</vector>
