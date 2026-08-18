@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AI Image Generator</string>
     <string name="splash_tagline">Turn ideas into images</string>
+
+    <string name="native_ad_loading">Ad is Loading…</string>
+    <string name="native_ad_install">Install</string>
+
 </resources>

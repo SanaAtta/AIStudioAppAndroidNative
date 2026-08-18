@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Brand gradient pill CTA ([BrandPalette] coral → flame) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="0"
+        android:endColor="@color/brand_flame_orange"
+        android:startColor="@color/brand_coral_red"
+        android:type="linear" />
+    <!-- Capsule / pill corners -->
+    <corners android:radius="999dp" />
+</shape>
