@@ -6,6 +6,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.core.content.FileProvider
+import com.example.myapplication.R
 import com.example.myapplication.model.StyleCatalog
 import com.example.myapplication.model.StyleOption
 import com.example.myapplication.model.VideoCatalog
@@ -14,6 +15,7 @@ import com.example.myapplication.model.VideoResolution
 import com.example.myapplication.network.AiApi
 import com.example.myapplication.network.AiConfig
 import com.example.myapplication.network.PromptStyles
+import com.example.myapplication.safety.PromptSafety
 import com.example.myapplication.util.AndroidFileHelper
 
 class AiVideoGeneratorController(
@@ -66,6 +68,10 @@ class AiVideoGeneratorController(
 
     suspend fun onGenerate(context: Context) {
         if (!canGenerate) return
+        if (PromptSafety.containsUnsafeContent(prompt)) {
+            errorMessage = context.getString(R.string.error_prompt_unsafe)
+            return
+        }
         isLoading = true
         errorMessage = null
         try {

@@ -32,6 +32,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.myapplication.network.AiApi
+import com.example.myapplication.safety.PromptSafety
 import com.example.myapplication.theme.DisabledButton
 import com.example.myapplication.theme.HomeBackground
 import com.example.myapplication.theme.HomeNavSelected
@@ -83,6 +84,10 @@ fun MusicGeneratorScreen(
             )
             Button(
                 onClick = {
+                    if (PromptSafety.containsUnsafeContent(prompt)) {
+                        errorMessage = PromptSafety.UNSAFE_MESSAGE
+                        return@Button
+                    }
                     scope.launch {
                         isLoading = true
                         errorMessage = null

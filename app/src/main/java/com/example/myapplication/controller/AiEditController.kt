@@ -6,9 +6,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.core.content.FileProvider
+import com.example.myapplication.R
 import com.example.myapplication.model.StyleCatalog
 import com.example.myapplication.network.AiApi
 import com.example.myapplication.network.PromptStyles
+import com.example.myapplication.safety.PromptSafety
 import com.example.myapplication.util.AndroidFileHelper
 
 class AiEditController(
@@ -59,6 +61,10 @@ class AiEditController(
     suspend fun onGenerate(context: Context) {
         val source = selectedImageUri ?: return
         if (!canGenerate) return
+        if (PromptSafety.containsUnsafeContent(editText)) {
+            errorMessage = context.getString(R.string.error_prompt_unsafe)
+            return
+        }
         isLoading = true
         errorMessage = null
         try {

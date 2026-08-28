@@ -1,0 +1,1484 @@
+package com.example.myapplication.safety
+
+internal object PromptSafetyBlockedWords {
+    val ALL: List<String> =
+        RAW.lineSequence()
+            .map { it.trim().lowercase() }
+            .filter { it.isNotEmpty() }
+            .distinct()
+            .toList()
+
+    private const val RAW = """
+18+
+2girls1cup
+4r5e
+5h1t
+5hit
+69
+a${'$'}${'$'}
+a-hole
+a_s_s
+a55
+abortion
+absent of clothing
+adult
+adult chat
+adult content
+adult film
+adult movie
+adult only
+adult star
+adult video
+adult website
+adultchat
+adultfilm
+adulting
+adultmovie
+adultonly
+adultstar
+adultvideo
+adultwebsite
+aftershock
+aids
+alluring
+anal
+analbeads
+analsex
+anatomy
+anus
+ar5e
+areola
+areole
+arian
+arousing
+arrse
+arse
+arsehole
+aryan
+asanchez
+ass
+ass-fucker
+assbang
+assbanged
+assclown
+asses
+assfuck
+assfucker
+assfukka
+asshat
+asshole
+assholes
+assmunch
+asswhole
+athletic wear
+au naturel
+autoerotic
+b!tch
+b00bs
+b17ch
+b1tch
+backdoor
+ballbag
+balls
+ballsack
+banger
+bare
+bare back
+bare chest
+bare skin
+bareback
+barebacking
+barely clothed
+barely covered
+barely dressed
+barelylegal
+bareskin
+bastard
+bath time
+bathing
+bathing suit
+bathroom
+bdsm
+beastial
+beastiality
+beaver
+bedtime
+bellend
+bent over
+bestial
+bestiality
+bi+ch
+bi-curious
+biatch
+bikini
+bikini bottom
+bikini top
+bimbo
+bimbos
+birthday suit
+bitch
+bitcher
+bitchers
+bitches
+bitchin
+bitching
+bloody
+blow
+blowbag
+blowjob
+blowjobs
+bluewaffle
+bodilyexposure
+body hugging
+body inspection
+bodyshot
+boink
+boiolas
+bollock
+bollok
+bondage
+boner
+boob
+boobs
+booby
+boobytrap
+booobs
+boooobs
+booooobs
+booooooobs
+booty
+bootycall
+bootylicious
+bottomless
+boudoir
+boxers
+bra
+breast
+breasts
+briefs
+bro
+brownshower
+brownshowers
+buceta
+bugger
+bukake
+bukkake
+bullshit
+bum
+buns
+bunnyfucker
+burlesque
+burlesquedancer
+busty
+butt
+butthole
+butthurt
+buttmunch
+buttocks
+buttplug
+c0ck
+c0cksucker
+camgirl
+camsite
+camshow
+candyass
+caress
+carnal
+carpetmuncher
+cawk
+chains
+changing room
+cheesecake
+cheeseburger
+chest
+chink
+chode
+choke
+cipa
+cl1t
+cleavage
+climax
+climaxing
+clinging clothes
+clit
+clithood
+clitoris
+clits
+clothes off
+clothes removed
+clothing off
+clothing removed
+clown
+cnut
+cock
+cock-sucker
+cockface
+cockhead
+cockmunch
+cockmuncher
+cocks
+cocksuck
+cocksucked
+cocksucker
+cocksucking
+cocksucks
+cocksuka
+cocksukka
+cok
+cokmuncher
+coksucka
+completely exposed
+completely naked
+completely nude
+completely unclothed
+condom
+coon
+cougar
+cowgirl
+cowgirls
+cox
+crap
+crotch
+cum
+cummy
+cumdumpster
+cumguzzler
+cuming
+cummer
+cumming
+cums
+cumshot
+cumslut
+cunilingus
+cunillingus
+cunnilingus
+cunt
+cuntbag
+cuntlick
+cuntlicker
+cuntlicking
+cunts
+curves
+cyalis
+cyberfuc
+cyberfuck
+cyberfucked
+cyberfucker
+cyberfuckers
+cyberfucking
+d1ck
+daddy
+damp
+damn
+debauchery
+deep neckline
+deepthroat
+devoid of clothing
+deviant
+dick
+dickhead
+dickpic
+dildo
+dildos
+dink
+dinks
+dirsa
+dirty talk
+dirtylittlesecret
+dirtypicture
+dirtysanchez
+dirtytalk
+disrobed completely
+dlck
+dog-fucker
+doggiestyle
+doggie-style
+doggin
+dogging
+doggystyle
+doggy-style
+dogstyle
+dominatrix
+dong
+donkeyribber
+doofus
+doosh
+dopey
+doublepenetration
+douch3
+douche
+douchebag
+douchebags
+douchey
+drunk
+duche
+dumass
+dumbass
+dumbasses
+dummy
+dyke
+dykes
+eathairpie
+eatadick
+ejaculate
+ejaculated
+ejaculates
+ejaculating
+ejaculatings
+ejaculation
+ejakulate
+enlargement
+enticing
+entirely disrobed
+entirely exposed
+entirely unclothed
+erect
+erection
+erotic
+erotica
+eroticfantasy
+eroticism
+eroticnovel
+erotism
+escort
+essohbee
+exhibitionism
+exhibitionist
+explicit
+exposed
+exposed skin
+extacy
+extasy
+eyecandy
+f_u_c_k
+f-u-c-k
+f.u.c.k
+f4nny
+fack
+fag
+fagg
+fagged
+fagging
+faggit
+faggitt
+faggot
+faggs
+fagot
+fagots
+fags
+faig
+faigt
+falling off
+fanny
+fannybandit
+fannyflaps
+fannyfucker
+fanyy
+fap
+fart
+fartknocker
+fat
+fatass
+fcuk
+fcuker
+fcuking
+feck
+fecker
+felch
+felcher
+felching
+fellate
+fellatio
+feltch
+feltcher
+femdom
+feminazi
+fetish
+fetishvideo
+fingerfuck
+fingerfucked
+fingerfucker
+fingerfuckers
+fingerfucking
+fingerfucks
+fingering
+fisted
+fistfuck
+fistfucked
+fistfucker
+fistfuckers
+fistfucking
+fistfuckings
+fistfucks
+fisting
+fisty
+flamer
+flange
+flasher
+flesh
+fleshlight
+flirtatious
+flogthelog
+floozy
+foad
+fondle
+foobar
+fook
+fooker
+footjob
+forbiddenfruit
+foreplay
+foreskin
+form fitting
+fornication
+foursome
+freak
+freakshow
+freaky
+free of clothing
+freex
+freetard
+frigg
+frigga
+fubar
+fuck
+fuck-ass
+fuck-bitch
+fuck-tard
+fucka
+fuckass
+fucked
+fucker
+fuckers
+fuckery
+fuckface
+fuckhead
+fuckheads
+fuckhole
+fuckin
+fucking
+fuckings
+fuckingshitmotherfucker
+fuckme
+fuckmeat
+fucknugget
+fucknut
+fuckoff
+fuckpuppet
+fucks
+fucktard
+fucktoy
+fucktrophy
+fuckup
+fuckwad
+fuckwhit
+fuckwit
+fuckyomama
+fudgepacker
+fugly
+fuk
+fuker
+fukker
+fukkin
+fukking
+fuks
+fukwhit
+fukwit
+fully disrobed
+fully exposed
+fully nude
+fully unclothed
+furry
+futanari
+futanary
+fux
+fux0r
+fvck
+fxck
+g-spot
+g-string
+gae
+gag
+gagging
+gai
+gang-bang
+gangbang
+gangbanged
+gangbangs
+ganja
+garments removed
+gassyass
+gay
+gaylord
+gays
+gaysex
+genitals
+genitalia
+getting undressed
+gey
+gfy
+ghay
+ghey
+gigolo
+glans
+goatse
+god
+god-dam
+god-damned
+godamn
+godamnit
+goddam
+goddammit
+goddamn
+goddamned
+gokkun
+goldenshower
+gonad
+gonads
+gook
+gooks
+grab
+graphic
+gringo
+groin
+gspot
+gtfo
+guido
+gym wear
+h0m0
+h0mo
+half clothes
+half dressed
+hamflap
+handjob
+hard-on
+hardcore
+hardcoresex
+hardon
+he11
+hebe
+heeb
+hell
+hemp
+hentai
+heroin
+herp
+herpes
+herpy
+heshe
+high cut
+hitler
+hiv
+hoar
+hoare
+hobag
+hoer
+hom0
+homey
+homo
+homoerotic
+homoey
+honky
+hooch
+hookah
+hooker
+hookup
+hoor
+hootch
+hooter
+hooters
+hore
+horniest
+horniness
+horny
+hot and sweaty
+hot girl
+hot girls
+hotpic
+hotsex
+howtokill
+howtomurdep
+hump
+humped
+humping
+hussy
+hustler
+hymen
+in birthday suit
+in my birthday suit
+in naked
+in nude
+in the buff
+in the nude
+in the raw
+in their birthday suit
+in your birthday suit
+inbred
+incest
+inappropriatecontent
+injun
+intercourse
+intimate
+intimate apparel
+intimate parts
+intimate wear
+intimateapparel
+j3rk0ff
+jack-off
+jackass
+jackhole
+jackoff
+jap
+japs
+jerk
+jerk-off
+jerk0ff
+jerked
+jerkoff
+jism
+jiz
+jizm
+jizz
+jizzed
+junkie
+junky
+kamasutra
+kawk
+kike
+kikes
+kill
+kinbaku
+kink
+kinkster
+kinky
+kinkyjesus
+kkk
+klan
+klutz
+knob
+knobead
+knobed
+knobend
+knobhead
+knobjocky
+knobjokey
+kock
+kondum
+kondums
+kooch
+kooches
+kootch
+kootchie
+kraut
+kum
+kummer
+kumming
+kums
+kunilingus
+kwif
+kyke
+l3i+ch
+l3itch
+labia
+lapdance
+latex
+leatherfetish
+lech
+len
+leper
+lesbian
+lesbians
+lesbo
+lesbos
+lewd
+lez
+lezbian
+lezbians
+lezbo
+lezbos
+lezzie
+lezzies
+lezzy
+lick
+licking
+lingerie
+lingerie set
+lingeriemodel
+little clothing
+lmao
+lmfao
+locker room
+loin
+loins
+lollipop
+loose clothes
+lovebites
+lovehandles
+low cut
+lube
+lust
+lustful
+lusting
+lusty
+lying down
+lying in bed
+m-fucking
+m0f0
+m0fo
+m45terbate
+ma5terb8
+ma5terbate
+mafugly
+making out
+mams
+manhood
+masochism
+masochist
+massa
+master-bate
+masterb8
+masterbat
+masterbat3
+masterbate
+masterbating
+masterbation
+masterbations
+masturbate
+masturbating
+masturbation
+mating
+maxi
+medical examination
+menses
+menstruate
+menstruation
+meth
+milf
+minimal clothing
+mo-fo
+mof0
+mofo
+moist
+moaning
+molest
+moolie
+moron
+mothafuck
+mothafucka
+mothafuckas
+mothafuckaz
+mothafucked
+mothafucker
+mothafuckers
+mothafuckin
+mothafucking
+mothafuckings
+mothafucks
+motherfuck
+motherfucka
+motherfucked
+motherfucker
+motherfuckers
+motherfuckin
+motherfucking
+motherfuckings
+motherfuckka
+motherfucks
+mtherfucker
+mthrfucker
+mthrfucking
+muff
+muffdiver
+muffdiving
+muffpuff
+murder
+mutha
+muthafecker
+muthafuckaz
+muthafucker
+muthafuckker
+muther
+mutherfucker
+mutherfucking
+muthrfucking
+mutualmasturbation
+n1g
+n1gg
+n1gga
+n1gger
+nad
+nads
+naked
+napalm
+nappy
+naughty
+naughtiness
+nazi
+nazism
+needthedick
+negro
+nigg
+nigg3r
+nigg4h
+nigga
+niggah
+niggas
+niggaz
+nigger
+niggers
+niggle
+niglet
+nightgown
+nimrod
+ninny
+nipple
+nipples
+nippleslip
+no attire
+no bottom
+no cloth
+no cloth on
+no clothe
+no clothes
+no clothing
+no clothing on
+no dress
+no garments
+no outfit
+no pants
+no shirt
+no top
+nob
+nobhead
+nobjocky
+nobjokey
+nooky
+not a single cloth
+not a single piece of clothing
+not a thing but
+not safe for work
+not wearing a single item
+not wearing a single thing
+not wearing anything
+nothing on
+nsfw
+nude
+nudeart
+nudebeach
+nudes
+nudeselfie
+nudist
+nudity
+numbnuts
+nut
+nutbutter
+nutsack
+nymph
+nympho
+obscene
+omg
+on all fours
+open legs
+open shirt
+opiate
+opium
+oral
+orally
+orgasim
+orgasims
+orgasm
+orgasmic
+orgasms
+orgies
+orgy
+ovary
+ovum
+ovums
+p.u.s.s.y.
+p0rn
+paddy
+pajamas
+paki
+pantie
+panties
+pantless
+panty
+passion
+passionate
+pastie
+pasty
+pawn
+pcp
+pecker
+peckerhead
+pedo
+pedophile
+pedophilia
+pedophiliac
+pee
+peepee
+peep
+peeping
+peepshow
+penetrate
+penetration
+penial
+penile
+penis
+penisfucker
+perversion
+peyote
+phalli
+phallic
+phonesex
+phuck
+phuk
+phuked
+phuking
+phukked
+phukking
+phuks
+phuq
+physical exam
+physique
+pigfucker
+pillow
+pillowbiter
+pillowprincess
+pimp
+pimpis
+pinko
+piss
+piss-off
+pissed
+pisser
+pissers
+pisses
+pissflaps
+pissin
+pissing
+pissoff
+playboy
+plaything
+pleasure
+plunging neckline
+pms
+poop
+poon
+poontang
+poot
+porn
+porno
+pornographic
+pornography
+pornos
+pot
+potty
+pouting
+prick
+pricktease
+pricks
+prig
+private parts
+privatephotos
+pron
+prostitute
+provocative
+provocative pose
+provocativedance
+provocativepose
+prude
+prurient
+pube
+pubic
+pubis
+pumping
+punkass
+punky
+puss
+pusse
+pussi
+pussies
+pussy
+pussycat
+pussyfart
+pussypalace
+pussypounder
+pussys
+puto
+queaf
+queef
+queer
+queerbait
+queero
+queers
+quicky
+quim
+r-rated
+r-tard
+racy
+rape
+raped
+raper
+raping
+rapist
+raunch
+raunchy
+rectal
+rectum
+rectus
+reefer
+reetard
+reich
+relaxing
+removing clothes
+reproductive organs
+retard
+retarded
+revealing
+revealing attire
+revealing body
+revealing clothes
+revealingattire
+revealingoutfit
+revue
+rimming
+rimjaw
+rimjob
+risque
+risquephoto
+ritard
+roadhead
+romantic
+roughsex
+rtard
+rubber
+rubbing
+rum
+rump
+rumprammer
+running shorts
+ruski
+s&m
+s_h_i_t
+s-h-1-t
+s-h-i-t
+s-o-b
+s.h.i.t.
+s.o.b.
+s0b
+sadism
+sadist
+sadomasochism
+sandbar
+sausagequeen
+scag
+scantily
+scantily clad
+scantilyclad
+schizo
+schlong
+screw
+screwed
+screwing
+scroat
+scrog
+scrot
+scrote
+scrotum
+scrud
+scum
+seaman
+seamen
+seduce
+seducing
+seduction
+seductive
+seductive pose
+see through
+semen
+semi-nude
+sensuous
+sensual
+sex
+sexbomb
+sexcapade
+sexpert
+sext
+sexting
+sextoy
+sexual
+sexualized
+sexuallyexplicit
+sexscene
+sexy
+sexyoutfit
+sexylingerie
+sh!+
+sh!t
+sh1t
+shag
+shagger
+shaggin
+shagging
+shamedame
+sheer clothes
+sheer clothing
+shemale
+shi+
+shibari
+shibary
+shirtless
+shit
+shitdick
+shite
+shiteater
+shited
+shitey
+shitface
+shitfuck
+shitfucker
+shitfull
+shithead
+shithole
+shithouse
+shiting
+shitings
+shits
+shitt
+shitted
+shitter
+shitters
+shitting
+shittings
+shitty
+shiz
+shlong
+shota
+shower
+showering
+silhouette
+sissy
+skag
+skank
+skimpy
+skimpy clothes
+skin showing
+skin tight
+skinny-dip
+skinflick
+slave
+sleaze
+sleazy
+sleepwear
+slipping off
+slope
+slut
+slutbag
+slutbucket
+slutdumper
+slutkiss
+sluts
+slutty
+smegma
+smut
+smutty
+snatch
+sniper
+snog
+snuff
+soaked clothes
+sodom
+sodomy
+softcore
+son-of-a-bitch
+souse
+soused
+spac
+spank
+spanking
+sperm
+spic
+spick
+spicycontent
+spicypic
+spik
+spiks
+spooge
+sports bra
+spread legs
+spunk
+stark naked
+steamy
+stfu
+stiffy
+stoned
+strap-on
+stripped
+stripping
+strip
+stripclub
+stripper
+striptease
+stroke
+stroking
+stupid
+submission
+submissive
+suck
+sucka
+sucked
+sucking
+sugarbaby
+suggestive
+suggestive pose
+suggestivelydressed
+suggestivepose
+sultry
+sultrygaze
+sultrypose
+sumofabiatch
+swallow
+sweaty
+swimsuit
+swimwear
+swinger
+swinging
+t1t
+t1tt1e5
+t1tties
+taboo
+taking off clothes
+tampon
+tard
+tawdry
+teabagging
+tease
+teat
+teets
+teez
+tempting
+temptress
+terd
+teste
+testee
+testes
+testical
+testicle
+testicles
+testis
+thin clothes
+thin fabric
+thong
+threesome
+throating
+thrust
+thug
+thirsttrap
+tight clothes
+tight shorts
+tinkle
+tit
+titfuck
+titi
+tits
+titt
+tittie5
+tittiefucker
+titties
+titty
+tittyfuck
+tittyfucker
+tittywank
+titwank
+toke
+toilet
+topless
+toots
+tosser
+totally disrobed
+totally exposed
+totally unclothed
+touch
+touching
+tramp
+transparent clothes
+transsexual
+trashy
+tryst
+tubgirl
+turd
+tush
+tw4t
+twat
+twathead
+twats
+twatty
+twerk
+twunt
+twunter
+two-timer
+ugly
+unbuttoned
+uncensored
+unclothed
+uncover
+undergarment
+undergarments
+undies
+undress
+undressed
+undressing
+underwear
+unveiled
+unveil
+unwed
+unzipped
+urinal
+urine
+uterus
+uzi
+v14gra
+v1gra
+vag
+vagina
+vaginal
+vajayjay
+valium
+viagra
+virgin
+vixen
+vodka
+vomit
+voyeur
+voyeurism
+vulgar
+vulva
+w00se
+wad
+wang
+wank
+wanker
+wankfest
+wanky
+wardrobe malfunction
+wazoo
+wear no thing
+wear no things
+wearing no thing
+wearing no things
+wearing nothing
+wearing nothing at all
+wearing zero clothes
+wears no thing
+wears no things
+webcamshow
+wedgie
+weed
+weenie
+weewee
+weiner
+weirdo
+wench
+wet
+wet clothes
+wetback
+wetdream
+wh0re
+wh0reface
+whack
+whipped
+whitey
+whiz
+whoar
+whoralicious
+whore
+whorebag
+whorealicious
+whored
+whoreface
+whorehopper
+whorehouse
+whores
+whoring
+whips
+wigger
+willies
+willy
+with no clothes on
+with no clothing on
+with no dress
+with no shirt
+with no single cloth
+with no single clothes
+with out clothes
+with out dress
+with out shirt
+with zero clothes
+with zero clothing
+without a single item of clothing
+without a stitch
+without a stitch of clothing
+without any clothes
+without any clothing
+without clothes
+without clothing
+without dress
+without shirt
+womb
+womanhood
+woody
+woolly
+wop
+workout clothes
+wuss
+wtf
+x-rated
+x-rated2g1c
+xrated
+xvideo
+xx
+xxx
+yaoi
+yiffy
+yobbo
+yoga pants
+yummy
+yury
+zaddy
+zero clothes
+zero clothing
+zipper
+zoophile
+legs apart
+legs wide open
+thighs apart
+thighs spread
+let your emotions out
+let his emotions out
+let her emotions out
+let my emotions out
+tangy pelaye
+tangen phailaye
+bed pe leti
+emotion nikalo
+aa jao
+ajawo
+aajao
+doesn't wear anything
+doesnt wear anything
+does not wear anything
+legs spread apart
+nangi
+nanga
+nangai
+nange
+bina kapre
+bina kapron
+bina kapde
+nude girl
+nude woman
+naked girl
+naked woman
+"""
+}

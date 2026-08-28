@@ -27,6 +27,7 @@ import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import kotlinx.serialization.json.put
+import com.example.myapplication.safety.PromptSafety
 
 class AiApi(
     private val client: io.ktor.client.HttpClient = AiHttpClient.http,
@@ -41,7 +42,8 @@ class AiApi(
         model: String = AiConfig.IMAGE_MODEL,
     ): Result<ByteArray> = withContext(Dispatchers.Default) {
         runCatching {
-            val fullPrompt = buildPrompt(prompt, styleHint)
+            PromptSafety.requireSafe(prompt)
+            val fullPrompt = PromptSafety.withVisualSafety(buildPrompt(prompt, styleHint))
             downloadBytes(
                 buildUrl(
                     path = "/image/${encode(fullPrompt)}",
@@ -50,6 +52,7 @@ class AiApi(
                         "width" to width.toString(),
                         "height" to height.toString(),
                         "nologo" to "true",
+                        "safe" to "nsfw",
                     ),
                 ),
             )
@@ -64,6 +67,7 @@ class AiApi(
         model: String = AiConfig.EDIT_MODEL,
     ): Result<ByteArray> = withContext(Dispatchers.Default) {
         runCatching {
+            PromptSafety.requireSafe(prompt)
             val response = client.post("${AiConfig.BASE_URL}/v1/images/edits") {
                 setBody(
                     MultiPartFormDataContent(
@@ -79,7 +83,7 @@ class AiApi(
                                     )
                                 },
                             )
-                            append("prompt", buildPrompt(prompt, styleHint))
+                            append("prompt", PromptSafety.withVisualSafety(buildPrompt(prompt, styleHint)))
                             append("model", model)
                             append("response_format", "b64_json")
                         },
@@ -103,7 +107,8 @@ class AiApi(
         model: String = AiConfig.VIDEO_MODEL,
     ): Result<ByteArray> = withContext(Dispatchers.Default) {
         runCatching {
-            val fullPrompt = buildPrompt(prompt, styleHint)
+            PromptSafety.requireSafe(prompt)
+            val fullPrompt = PromptSafety.withVisualSafety(buildPrompt(prompt, styleHint))
             downloadBytes(
                 buildUrl(
                     path = "/video/${encode(fullPrompt)}",
@@ -112,6 +117,7 @@ class AiApi(
                         "duration" to durationSeconds.coerceIn(2, 15).toString(),
                         "width" to width.toString(),
                         "height" to height.toString(),
+                        "safe" to "nsfw",
                     ),
                 ),
             )
@@ -126,6 +132,7 @@ class AiApi(
         model: String = AiConfig.MUSIC_MODEL,
     ): Result<ByteArray> = withContext(Dispatchers.Default) {
         runCatching {
+            PromptSafety.requireSafe(prompt)
             val fullPrompt = buildPrompt(prompt, genreHint)
             downloadBytes(
                 buildUrl(
@@ -238,6 +245,7 @@ class AiApi(
             "width" to width.toString(),
             "height" to height.toString(),
             "nologo" to "true",
+            "safe" to "nsfw",
         ),
     )
 

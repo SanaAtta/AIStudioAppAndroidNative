@@ -4,5 +4,6 @@
 
     <string name="native_ad_loading">Ad is Loading…</string>
     <string name="native_ad_install">Install</string>
+    <string name="error_prompt_unsafe">This prompt is not allowed. Please use safe and respectful language.</string>
 
 </resources>
