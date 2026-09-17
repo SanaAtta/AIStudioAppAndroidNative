@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">مولّد الصور بالذكاء الاصطناعي</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">أنشئ أي شيء بالذكاء الاصطناعي</string>
+    <string name="splash_loading">جاري تحميل الموارد…</string>
+
+    <string name="onboarding_title_1">حوّل الأفكار إلى صور</string>
+    <string name="onboarding_desc_1">أحيِ خيالك بذكاء اصطناعي مذهل.</string>
+    <string name="onboarding_button_1">ابدأ</string>
+
+    <string name="onboarding_title_2">أحيِ القصص</string>
+    <string name="onboarding_desc_2">حوّل الأفكار البسيطة إلى فيديوهات سينمائية آسرة بالذكاء الاصطناعي.</string>
+    <string name="onboarding_button_2">التالي ←</string>
+
+    <string name="onboarding_title_3">اصنع موسيقى من الأفكار</string>
+    <string name="onboarding_desc_3">حوّل أفكارك إلى موسيقى فريدة بالذكاء الاصطناعي.</string>
+    <string name="onboarding_button_3">ابدأ الإنشاء ✨</string>
+
+    <string name="onboarding_skip">تخطي</string>
+
+    <string name="choose_language">اختر اللغة</string>
+    <string name="language_done">تم</string>
+
+    <string name="home_greeting_morning">صباح الخير 👋</string>
+    <string name="home_greeting_afternoon">مساء الخير 👋</string>
+    <string name="home_greeting_evening">مساء الخير 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">مولّد الصور</string>
+    <string name="home_image_generator_subtitle">أنشئ فناً رائعاً بالذكاء الاصطناعي في ثوانٍ</string>
+    <string name="home_image_generator_explore">استكشف الآن</string>
+    <string name="home_video_generator_title">مولّد الفيديو</string>
+    <string name="home_video_generator_subtitle">أنشئ فيديوهات بالذكاء الاصطناعي</string>
+    <string name="home_music_generator_title">مولّد الموسيقى</string>
+    <string name="home_music_generator_subtitle">أنشئ موسيقى بالذكاء الاصطناعي</string>
+    <string name="home_recent_creations">إبداعات الذكاء الاصطناعي الأخيرة</string>
+    <string name="home_see_all">عرض الكل</string>
+    <string name="home_recent_empty_hint">أنشئ صورًا أو فيديوهات أو موسيقى أو أغلفة لتظهر هنا</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_upgrade_pro">الترقية إلى Pro</string>
+    <string name="settings_upgrade_subtitle">توليد غير محدود · بدون علامات مائية</string>
+    <string name="settings_upgrade">ترقية</string>
+    <string name="settings_go_premium">انتقل إلى Premium</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">افتح جميع ميزات Premium واستمتع بدون إعلانات</string>
+    <string name="settings_section_appearance">المظهر</string>
+    <string name="settings_section_account">الحساب</string>
+    <string name="settings_section_help">المساعدة</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_favourites">المفضلة</string>
+    <string name="settings_privacy">الخصوصية</string>
+    <string name="settings_terms">شروط الخدمة</string>
+    <string name="settings_rate_app">تقييم التطبيق</string>
+    <string name="settings_share_app">مشاركة التطبيق</string>
+    <string name="settings_help_center">مركز المساعدة</string>
+    <string name="settings_about">حول</string>
+
+    <string name="premium_close">إغلاق</string>
+    <string name="premium_slide_image">مولّد الصور بالذكاء الاصطناعي</string>
+    <string name="premium_slide_video">مولّد الفيديو بالذكاء الاصطناعي</string>
+    <string name="premium_slide_music">مولّد الموسيقى بالذكاء الاصطناعي</string>
+    <string name="premium_slide_edit">استوديو التعديل بالذكاء الاصطناعي</string>
+    <string name="premium_feature_unlimited_title">غير محدود</string>
+    <string name="premium_feature_unlimited_subtitle">التوليد</string>
+    <string name="premium_feature_no_ads_title">بدون إعلانات</string>
+    <string name="premium_feature_no_ads_subtitle">تجربة</string>
+    <string name="premium_feature_priority_title">أولوية</string>
+    <string name="premium_feature_priority_subtitle">المعالجة</string>
+    <string name="premium_feature_downloads_title">جودة عالية</string>
+    <string name="premium_feature_downloads_subtitle">التنزيلات</string>
+    <string name="premium_feature_early_title">وصول مبكر</string>
+    <string name="premium_feature_early_subtitle">للأدوات الجديدة</string>
+    <string name="premium_unlock">فتح</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">الميزات</string>
+    <string name="premium_best_choice">الأفضل</string>
+    <string name="premium_plan_yearly">الخطة السنوية</string>
+    <string name="premium_plan_yearly_subtitle">فقط Rs 9,500 سنوياً</string>
+    <string name="premium_plan_weekly">الخطة الأسبوعية</string>
+    <string name="premium_plan_weekly_subtitle">ستتجدد الخطة كل أسبوع</string>
+    <string name="premium_per_week">في الأسبوع</string>
+    <string name="premium_save_badge">وفر 80%</string>
+    <string name="premium_trial_prefix">9500/سنة - بعد</string>
+    <string name="premium_trial_highlight">3 أيام تجربة مجانية</string>
+    <string name="premium_subscribe">اشترك</string>
+    <string name="premium_disclaimer">سيتجدد اشتراكك تلقائياً عند انتهاء التجربة المجانية. يمكنك الإلغاء في أي وقت.</string>
+    <string name="premium_footer_links">شروط الخدمة | سياسة الخصوصية | إلغاء الاشتراك</string>
+
+    <string name="error_prompt_required">أدخل وصفاً قبل التوليد</string>
+    <string name="error_deapi_key_missing">مفتاح deAPI مفقود. أضف deapi.api.key في secrets.properties ثم أعد بناء المشروع</string>
+    <string name="error_pollinations_key_missing">مفتاح Pollinations مفقود. أضف pollinations.api.key في secrets.properties</string>
+    <string name="error_voice_sample_required">ارفع أو سجّل عينة صوت أولاً (10 ثوانٍ على الأقل)</string>
+    <string name="error_audio_too_short">يجب أن تكون عينة الصوت 10 ثوانٍ على الأقل</string>
+    <string name="error_audio_too_long">يجب أن تكون عينة الصوت أقل من 60 ثانية</string>
+    <string name="error_record_min_seconds">سجّل 10 ثوانٍ على الأقل</string>
+
+    <string name="back">رجوع</string>
+    <string name="duration">المدة</string>
+    <string name="style">النمط</string>
+    <string name="aspect_ratio">نسبة العرض</string>
+    <string name="mood">المزاج</string>
+    <string name="genre">النوع</string>
+
+    <string name="image_generator_title">مولّد الصور</string>
+    <string name="image_generator_subtitle">أنشئ فناً بالذكاء الاصطناعي من النص</string>
+    <string name="image_prompt_label">صف صورتك</string>
+    <string name="image_prompt_hint">مدينة سايبربunk مستقبلية ليلاً مع أضواء نيون على شوارع مبللة، نمط أنمي، تفاصيل عالية، 4K</string>
+    <string name="styles">الأنماط</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">توليد الصورة</string>
+    <string name="generating_image">جاري توليد الصورة</string>
+
+    <string name="video_generator_title">مولّد الفيديو</string>
+    <string name="video_generator_subtitle">أنشئ فيديوهات بالذكاء الاصطناعي من النص</string>
+    <string name="video_prompt_label">وصف الفيديو</string>
+    <string name="camera_motion">حركة الكاميرا</string>
+    <string name="generate_video">توليد الفيديو</string>
+    <string name="generating_video">جاري توليد الفيديو</string>
+    <string name="recent_videos">الفيديوهات الأخيرة</string>
+
+    <string name="music_generator_title">مولّد الموسيقى</string>
+    <string name="music_generator_subtitle">أنشئ موسيقى بالذكاء الاصطناعي من النص</string>
+    <string name="music_prompt_label">صف موسيقاك</string>
+    <string name="voice_style">نمط الصوت</string>
+    <string name="generate_music">توليد الموسيقى</string>
+    <string name="generating_music">جاري توليد الموسيقى</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">محرر الذكاء الاصطناعي</string>
+    <string name="ai_edit_subtitle">أدوات تحرير احترافية مدعومة بالذكاء الاصطناعي</string>
+    <string name="ai_edit_search_hint">ماذا تريد تعديله؟</string>
+    <string name="ai_edit_tools_title">أدوات التحرير</string>
+    <string name="ai_edit_tools_count">%1$d أدوات</string>
+    <string name="ai_edit_select_tool">اختر أداة تحرير أعلاه</string>
+    <string name="ai_edit_upload_title">ارفع صورة للتعديل</string>
+    <string name="ai_edit_upload_hint">JPG و PNG و WEBP حتى 20 ميجابايت</string>
+    <string name="ai_edit_apply">تطبيق التعديل</string>
+    <string name="ai_edit_apply_tool">تطبيق %1$s</string>
+    <string name="ai_edit_editing">جارٍ التعديل</string>
+    <string name="ai_edit_search">بحث</string>
+    <string name="ai_edit_selected_image">الصورة المحددة</string>
+    <string name="ai_edit_result_title">نتيجة التعديل</string>
+    <string name="ai_edit_result_empty">لا توجد صورة معدّلة للعرض</string>
+    <string name="ai_edit_edited_with">تم التعديل باستخدام %1$s</string>
+    <string name="ai_edit_before_after">قبل وبعد</string>
+    <string name="ai_edit_original">الأصلية</string>
+    <string name="ai_edit_edited">المعدّلة</string>
+    <string name="ai_edit_download">تنزيل</string>
+    <string name="ai_edit_share">مشاركة</string>
+    <string name="ai_edit_edit_again">تعديل مرة أخرى</string>
+    <string name="ai_edit_prompt_label">موجه التعديل</string>
+    <string name="ai_edit_share_chooser">مشاركة الصورة المعدّلة</string>
+    <string name="ai_edit_saved_gallery">تم الحفظ في المعرض</string>
+    <string name="ai_edit_download_failed">فشل التنزيل</string>
+    <string name="ai_edit_failed">فشل التعديل</string>
+    <string name="edit_tool_remove_bg">إزالة الخلفية</string>
+    <string name="edit_tool_magic_eraser">ممحاة سحرية</string>
+    <string name="edit_tool_ai_enhance">تحسين بالذكاء</string>
+    <string name="edit_tool_replace_obj">استبدال كائن</string>
+    <string name="edit_tool_upscaler">تكبير الجودة</string>
+    <string name="edit_tool_face_enhance">تحسين الوجه</string>
+    <string name="edit_tool_sky_replace">تغيير السماء</string>
+    <string name="edit_tool_colorize">تلوين</string>
+    <string name="edit_tool_bg_generator">مولد الخلفية</string>
+    <string name="edit_tool_ai_expand">توسيع بالذكاء</string>
+
+    <string name="ai_cover_title">غلاف AI</string>
+    <string name="ai_cover_subtitle">أنشئ أغلفة بصوت الذكاء الاصطناعي</string>
+    <string name="upload_your_voice">ارفع صوتك</string>
+    <string name="upload_voice_hint">سجّل أو ارفع عينة صوت (10 ثوانٍ على الأقل)</string>
+    <string name="upload_audio">رفع الصوت</string>
+    <string name="record_audio">تسجيل الصوت</string>
+    <string name="stop_recording">إيقاف التسجيل</string>
+    <string name="choose_singer_style">اختر نمط المغني</string>
+    <string name="generate_cover">توليد الغلاف</string>
+    <string name="generating_cover">جاري توليد الغلاف</string>
+    <string name="my_covers">أغلفتي</string>
+
+    <string name="library_title">المكتبة</string>
+    <string name="library_tab_all">الكل</string>
+    <string name="library_tab_images">الصور</string>
+    <string name="library_tab_videos">الفيديو</string>
+    <string name="library_tab_music">الموسيقى</string>
+    <string name="library_tab_saved">المحفوظ</string>
+    <string name="library_empty">لا توجد إبداعات بعد</string>
+    <string name="library_empty_saved">لا توجد عناصر محفوظة بعد</string>
+    <string name="favourites_title">المفضلة</string>
+    <string name="favourites_empty">لا توجد مفضلات بعد</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_ai_cover">غلاف AI</string>
+    <string name="nav_ai_edit">تحرير AI</string>
+    <string name="nav_ai_wallpaper">خلفيات AI</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="exit_title">الخروج من التطبيق؟</string>
+    <string name="exit_subtitle">هل أنت متأكد أنك تريد المغادرة؟ عد في أي وقت لإنشاء المزيد بالذكاء الاصطناعي.</string>
+    <string name="exit_stay">البقاء</string>
+    <string name="exit_confirm">خروج</string>
+    <string name="press_back_again_to_exit">اضغط رجوع مرة أخرى للخروج</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">الإبلاغ عن محتوى</string>
+    <string name="report_content_subtitle">ساعدنا في الحفاظ على أمان المحتوى المُنشأ بالذكاء الاصطناعي.</string>
+    <string name="report_reason_offensive">محتوى مسيء أو بذيء</string>
+    <string name="report_reason_sexual">محتوى جنسي أو غير لائق</string>
+    <string name="report_reason_hate">محتوى يحث على الكراهية أو التمييز</string>
+    <string name="report_reason_violent">محتوى عنيف أو صادم</string>
+    <string name="report_reason_other">أخرى</string>
+    <string name="report_cancel">إلغاء</string>
+    <string name="report_submit">إرسال البلاغ</string>
+    <string name="report_submitting">جارٍ إرسال البلاغ…</string>
+    <string name="report_success">تم إرسال البلاغ بنجاح. شكراً لملاحظاتك!</string>
+    <string name="report_failed">فشل إرسال البلاغ. يُرجى المحاولة مرة أخرى.</string>
+    <string name="report_retry">إعادة المحاولة</string>
+    <string name="report_more_options">المزيد من الخيارات</string>
+    <string name="report_menu_item">الإبلاغ عن محتوى</string>
+    <string name="report_additional_details">تفاصيل إضافية (مطلوبة في حالة أخرى)</string>
+    <string name="report_validation_select_reason">يرجى تحديد سبب قبل الإرسال.</string>
+    <string name="report_validation_provide_details">يرجى كتابة التفاصيل في حقل الوصف.</string>
+</resources>

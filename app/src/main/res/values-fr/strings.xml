@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Générateur d\'Images IA</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">Créez tout avec l\'IA</string>
+    <string name="splash_loading">Chargement des ressources…</string>
+
+    <string name="onboarding_title_1">Transformez vos idées en images</string>
+    <string name="onboarding_desc_1">Donnez vie à votre imagination avec une IA époustouflante.</string>
+    <string name="onboarding_button_1">Commencer</string>
+
+    <string name="onboarding_title_2">Donnez vie à vos histoires</string>
+    <string name="onboarding_desc_2">Transformez des idées simples en vidéos cinématiques IA captivantes.</string>
+    <string name="onboarding_button_2">Suivant →</string>
+
+    <string name="onboarding_title_3">Créez de la musique à partir d\'idées</string>
+    <string name="onboarding_desc_3">Transformez vos idées en musique unique avec l\'IA.</string>
+    <string name="onboarding_button_3">Commencer à créer ✨</string>
+
+    <string name="onboarding_skip">Passer</string>
+
+    <string name="choose_language">Choisir la langue</string>
+    <string name="language_done">Terminé</string>
+
+    <string name="home_greeting_morning">Bonjour 👋</string>
+    <string name="home_greeting_afternoon">Bon après-midi 👋</string>
+    <string name="home_greeting_evening">Bonsoir 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">Générateur d\'Images</string>
+    <string name="home_image_generator_subtitle">Créez de superbes œuvres IA en quelques secondes</string>
+    <string name="home_image_generator_explore">Explorer maintenant</string>
+    <string name="home_video_generator_title">Générateur de Vidéos</string>
+    <string name="home_video_generator_subtitle">Créez des vidéos IA</string>
+    <string name="home_music_generator_title">Générateur de Musique</string>
+    <string name="home_music_generator_subtitle">Créez de la musique IA</string>
+    <string name="home_recent_creations">Créations IA récentes</string>
+    <string name="home_see_all">Tout voir</string>
+    <string name="home_recent_empty_hint">Générez des images, vidéos, musiques ou covers pour les voir ici</string>
+
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_upgrade_pro">Passer à Pro</string>
+    <string name="settings_upgrade_subtitle">Générations illimitées · Sans filigrane</string>
+    <string name="settings_upgrade">Mettre à niveau</string>
+    <string name="settings_go_premium">Passer Premium</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">Débloquez toutes les fonctions Premium et profitez sans pubs</string>
+    <string name="settings_section_appearance">APPARENCE</string>
+    <string name="settings_section_account">COMPTE</string>
+    <string name="settings_section_help">AIDE</string>
+    <string name="settings_dark_mode">Mode sombre</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_favourites">Favoris</string>
+    <string name="settings_privacy">Confidentialité</string>
+    <string name="settings_terms">Conditions d\'utilisation</string>
+    <string name="settings_rate_app">Noter l\'app</string>
+    <string name="settings_share_app">Partager l\'app</string>
+    <string name="settings_help_center">Centre d\'aide</string>
+    <string name="settings_about">À propos</string>
+
+    <string name="premium_close">Fermer</string>
+    <string name="premium_slide_image">Générateur d\'Images IA</string>
+    <string name="premium_slide_video">Générateur de Vidéos IA</string>
+    <string name="premium_slide_music">Générateur de Musique IA</string>
+    <string name="premium_slide_edit">Studio d\'Édition IA</string>
+    <string name="premium_feature_unlimited_title">Illimité</string>
+    <string name="premium_feature_unlimited_subtitle">Générations</string>
+    <string name="premium_feature_no_ads_title">Sans pub</string>
+    <string name="premium_feature_no_ads_subtitle">Expérience</string>
+    <string name="premium_feature_priority_title">Priorité</string>
+    <string name="premium_feature_priority_subtitle">Traitement</string>
+    <string name="premium_feature_downloads_title">Haute qualité</string>
+    <string name="premium_feature_downloads_subtitle">Téléchargements</string>
+    <string name="premium_feature_early_title">Accès anticipé</string>
+    <string name="premium_feature_early_subtitle">Aux nouveaux outils</string>
+    <string name="premium_unlock">Débloquer</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">Fonctionnalités</string>
+    <string name="premium_best_choice">MEILLEUR CHOIX</string>
+    <string name="premium_plan_yearly">Plan annuel</string>
+    <string name="premium_plan_yearly_subtitle">Seulement Rs 9 500 par an</string>
+    <string name="premium_plan_weekly">Plan hebdomadaire</string>
+    <string name="premium_plan_weekly_subtitle">Le plan sera renouvelé chaque semaine</string>
+    <string name="premium_per_week">Par semaine</string>
+    <string name="premium_save_badge">Économisez 80%</string>
+    <string name="premium_trial_prefix">9500/an - Après</string>
+    <string name="premium_trial_highlight">3 jours d\'essai gratuit</string>
+    <string name="premium_subscribe">S\'abonner</string>
+    <string name="premium_disclaimer">Votre abonnement sera renouvelé automatiquement à la fin de l\'essai gratuit. Vous pouvez annuler à tout moment.</string>
+    <string name="premium_footer_links">Conditions d\'utilisation | Politique de confidentialité | Annuler l\'abonnement</string>
+
+    <string name="error_prompt_required">Entrez un prompt avant de générer</string>
+    <string name="error_deapi_key_missing">Clé deAPI manquante. Ajoutez deapi.api.key dans secrets.properties, puis reconstruisez le projet</string>
+    <string name="error_pollinations_key_missing">Clé Pollinations manquante. Ajoutez pollinations.api.key dans secrets.properties</string>
+    <string name="error_voice_sample_required">Téléchargez ou enregistrez d\'abord un échantillon vocal (min. 10s)</string>
+    <string name="error_audio_too_short">L\'échantillon audio doit durer au moins 10 secondes</string>
+    <string name="error_audio_too_long">L\'échantillon audio doit durer moins de 60 secondes</string>
+    <string name="error_record_min_seconds">Enregistrez au moins 10 secondes</string>
+
+    <string name="back">Retour</string>
+    <string name="duration">Durée</string>
+    <string name="style">Style</string>
+    <string name="aspect_ratio">Format</string>
+    <string name="mood">Ambiance</string>
+    <string name="genre">Genre</string>
+
+    <string name="image_generator_title">Générateur d\'Images</string>
+    <string name="image_generator_subtitle">Créez des œuvres IA à partir de texte</string>
+    <string name="image_prompt_label">Décrivez votre image</string>
+    <string name="image_prompt_hint">Une ville cyberpunk futuriste la nuit avec des néons reflétés sur des rues mouillées, style anime, ultra détaillé, 4K</string>
+    <string name="styles">Styles</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">Générer l\'image</string>
+    <string name="generating_image">Génération de l\'image</string>
+
+    <string name="video_generator_title">Générateur de Vidéos</string>
+    <string name="video_generator_subtitle">Créez des vidéos IA à partir de texte</string>
+    <string name="video_prompt_label">Prompt vidéo</string>
+    <string name="camera_motion">Mouvement de caméra</string>
+    <string name="generate_video">Générer la vidéo</string>
+    <string name="generating_video">Génération de la vidéo</string>
+    <string name="recent_videos">Vidéos récentes</string>
+
+    <string name="music_generator_title">Générateur de Musique</string>
+    <string name="music_generator_subtitle">Créez de la musique IA à partir de texte</string>
+    <string name="music_prompt_label">Décrivez votre musique</string>
+    <string name="voice_style">Style de voix</string>
+    <string name="generate_music">Générer la musique</string>
+    <string name="generating_music">Génération de la musique</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">Éditeur IA</string>
+    <string name="ai_edit_subtitle">Outils d\'édition professionnels alimentés par l\'IA</string>
+    <string name="ai_edit_search_hint">Que souhaitez-vous modifier ?</string>
+    <string name="ai_edit_tools_title">Outils d\'édition</string>
+    <string name="ai_edit_tools_count">%1$d outils</string>
+    <string name="ai_edit_select_tool">Sélectionnez un outil ci-dessus</string>
+    <string name="ai_edit_upload_title">Importer une image à éditer</string>
+    <string name="ai_edit_upload_hint">JPG, PNG, WEBP jusqu\'à 20 Mo</string>
+    <string name="ai_edit_apply">Appliquer l\'édition</string>
+    <string name="ai_edit_apply_tool">Appliquer %1$s</string>
+    <string name="ai_edit_editing">Édition</string>
+    <string name="ai_edit_search">Rechercher</string>
+    <string name="ai_edit_selected_image">Image sélectionnée</string>
+    <string name="ai_edit_result_title">Résultat de l\'édition</string>
+    <string name="ai_edit_result_empty">Aucune image éditée à afficher</string>
+    <string name="ai_edit_edited_with">Édité avec %1$s</string>
+    <string name="ai_edit_before_after">Avant / Après</string>
+    <string name="ai_edit_original">Original</string>
+    <string name="ai_edit_edited">Édité</string>
+    <string name="ai_edit_download">Télécharger</string>
+    <string name="ai_edit_share">Partager</string>
+    <string name="ai_edit_edit_again">Éditer à nouveau</string>
+    <string name="ai_edit_prompt_label">PROMPT D\'ÉDITION</string>
+    <string name="ai_edit_share_chooser">Partager l\'image éditée</string>
+    <string name="ai_edit_saved_gallery">Enregistré dans la galerie</string>
+    <string name="ai_edit_download_failed">Échec du téléchargement</string>
+    <string name="ai_edit_failed">Échec de l\'édition</string>
+    <string name="edit_tool_remove_bg">Suppr. fond</string>
+    <string name="edit_tool_magic_eraser">Gomme magique</string>
+    <string name="edit_tool_ai_enhance">Amélioration IA</string>
+    <string name="edit_tool_replace_obj">Remplacer obj</string>
+    <string name="edit_tool_upscaler">Agrandisseur</string>
+    <string name="edit_tool_face_enhance">Améliorer visage</string>
+    <string name="edit_tool_sky_replace">Changer ciel</string>
+    <string name="edit_tool_colorize">Coloriser</string>
+    <string name="edit_tool_bg_generator">Générer fond</string>
+    <string name="edit_tool_ai_expand">Étendre IA</string>
+
+    <string name="ai_cover_title">Cover IA</string>
+    <string name="ai_cover_subtitle">Créez des covers avec voix IA</string>
+    <string name="upload_your_voice">Téléchargez votre voix</string>
+    <string name="upload_voice_hint">Enregistrez ou téléchargez un échantillon audio (min. 10s)</string>
+    <string name="upload_audio">Télécharger l\'audio</string>
+    <string name="record_audio">Enregistrer l\'audio</string>
+    <string name="stop_recording">Arrêter l\'enregistrement</string>
+    <string name="choose_singer_style">Choisir le style de chanteur</string>
+    <string name="generate_cover">Générer le cover</string>
+    <string name="generating_cover">Génération du cover</string>
+    <string name="my_covers">Mes covers</string>
+
+    <string name="library_title">Bibliothèque</string>
+    <string name="library_tab_all">Tout</string>
+    <string name="library_tab_images">Images</string>
+    <string name="library_tab_videos">Vidéos</string>
+    <string name="library_tab_music">Musique</string>
+    <string name="library_tab_saved">Enregistrés</string>
+    <string name="library_empty">Aucune création pour l\'instant</string>
+    <string name="library_empty_saved">Aucun élément enregistré pour l\'instant</string>
+    <string name="favourites_title">Favoris</string>
+    <string name="favourites_empty">Aucun favori pour l\'instant</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_ai_cover">Cover IA</string>
+    <string name="nav_ai_edit">Édition IA</string>
+    <string name="nav_ai_wallpaper">Fonds IA</string>
+    <string name="nav_library">Bibliothèque</string>
+    <string name="exit_title">Quitter l\'app ?</string>
+    <string name="exit_subtitle">Voulez-vous vraiment partir ? Revenez quand vous voulez pour créer davantage avec l\'IA.</string>
+    <string name="exit_stay">Rester</string>
+    <string name="exit_confirm">Quitter</string>
+    <string name="press_back_again_to_exit">Appuyez encore sur retour pour quitter</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">Signaler le contenu</string>
+    <string name="report_content_subtitle">Aidez-nous à garder le contenu généré par IA sécurisé.</string>
+    <string name="report_reason_offensive">Contenu offensant ou abusif</string>
+    <string name="report_reason_sexual">Contenu sexuel ou inapproprié</string>
+    <string name="report_reason_hate">Contenu haineux ou discriminatoire</string>
+    <string name="report_reason_violent">Contenu violent ou explicite</string>
+    <string name="report_reason_other">Autre</string>
+    <string name="report_cancel">Annuler</string>
+    <string name="report_submit">Envoyer le signalement</string>
+    <string name="report_submitting">Envoi du signalement…</string>
+    <string name="report_success">Rapport envoyé avec succès. Merci pour vos commentaires !</string>
+    <string name="report_failed">Échec de l\'envoi du signalement. Veuillez réessayer.</string>
+    <string name="report_retry">Réessayer</string>
+    <string name="report_more_options">Plus d\'options</string>
+    <string name="report_menu_item">Signaler le contenu</string>
+    <string name="report_additional_details">Détails supplémentaires (requis pour autre)</string>
+    <string name="report_validation_select_reason">Veuillez sélectionner une raison avant d\'envoyer.</string>
+    <string name="report_validation_provide_details">Veuillez décrire le problème dans le champ de détails.</string>
+</resources>

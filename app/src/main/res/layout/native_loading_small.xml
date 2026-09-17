@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/native_ad_loading"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@color/brand_coral_red"
         android:textSize="14sp" />
-
 </FrameLayout>

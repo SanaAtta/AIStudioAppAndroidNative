@@ -1,0 +1,6 @@
+# Use secrets.properties (recommended — not overwritten by Android Studio).
+# Copy secrets.properties.example → secrets.properties and fill in your keys.
+
+pollinations.api.key=YOUR_POLLINATIONS_SECRET_KEY   # https://enter.pollinations.ai
+deapi.api.key=YOUR_DEAPI_API_KEY                   # https://deapi.ai
+groq.api.key=YOUR_GROQ_API_KEY                     # https://console.groq.com/keys

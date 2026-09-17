@@ -3,16 +3,14 @@
   "ads_debug_log": 1,
   "app_open_resume": 1,
   "privacy_policy_url": "https://allvideodownloaderhdvideoplayer.blogspot.com/2026/05/privacy-policy.html",
-  "terms_and_conditions_url": "https://allvideodownloaderhdvideoplayer.blogspot.com/2026/05/privacy-policy.html",
-  "premium_screen_test": "",
   "splash": {
     "top": {
-      "adaptive_banner_ad": 1,
+      "adaptive_banner_ad": 0,
       "native_ad_without_media": 0,
-      "native_ad_with_media": 0
+      "native_ad_with_media": 1
     },
     "bottom": {
-      "adaptive_banner_ad": 1,
+      "adaptive_banner_ad": 0,
       "native_ad_without_media": 0,
       "native_ad_with_media": 0
     },
@@ -30,8 +28,7 @@
       "native_ad_without_media": 0,
       "native_ad_with_media": 1
     },
-    "done_interstitial": 0,
-    "top_premium_card": 1
+    "done_interstitial": 0
   },
   "onboarding": {
     "top": {
@@ -50,65 +47,78 @@
     "top": {
       "adaptive_banner_ad": 0,
       "native_ad_without_media": 0,
-      "native_ad_with_media": 0
+      "native_ad_with_media": 1
     },
     "bottom": {
-      "adaptive_banner_ad": 1,
+      "adaptive_banner_ad": 0,
       "native_ad_without_media": 0,
       "native_ad_with_media": 0
+    }
+  },
+  "library": {
+    "bottom": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
+    }
+  },
+  "wallpaper": {
+    "bottom": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
+    }
+  },
+  "image_generator": {
+    "interstitial": 1,
+    "bottom": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
+    }
+  },
+  "video_generator": {
+    "interstitial": 1,
+    "bottom": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
+    }
+  },
+  "music_generator": {
+    "interstitial": 1,
+    "bottom": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
+    }
+  },
+  "generate_result": {
+    "home_interstitial": 1,
+    "rewarded_ad": 1,
+    "rewarded_interstitial_ad": 1,
+    "top": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
     },
-    "social_platform_interstitial": 1
-  },
-  "settings": {
-    "top_premium_card": 1,
-    "bottom_native_ad": 0,
-    "bottom_adaptive_banner": 1
-  },
-  "social_platform": {
-    "native_ad": 0,
-    "medium_rectangle_banner": 1,
-    "interstitial": 1
+    "bottom": {
+      "adaptive_banner_ad": 0,
+      "native_ad_without_media": 0,
+      "native_ad_with_media": 1
+    }
   },
   "exit": {
-    "medium_native_ad": 0,
     "medium_rectangle_banner": 1,
+    "medium_native_ad": 0,
     "adaptive_banner_ad": 0
   },
+  "settings": {
+    "interstitial": 1
+  },
   "premium": {
+    "promos_enabled": 1,
     "show_after_onboarding": 1,
-    "close_interstitial": 0,
-    "home_app_bar_pro": 1,
-    "home_social_premium_card": 1,
-    "exit_deal_dialog": 1,
-    "gift_fab": 1
-  },
-  "reels": {
-    "bottom": {
-      "adaptive_banner_ad": 1,
-      "native_ad_without_media": 0,
-      "native_ad_with_media": 0
-    },
-    "fullscreen_native_ad": 0,
-    "back_interstitial": 1
-  },
-  "video_preview": {
-    "download_interstitial": 0
-  },
-  "native_ad_cta": {
-    "without_media": {
-      "gradient_start": "#E93B3B",
-      "gradient_end": "#EF5A1C",
-      "text_color": "#FFFFFF"
-    },
-    "with_media": {
-      "gradient_start": "#E93B3B",
-      "gradient_end": "#EF5A1C",
-      "text_color": "#FFFFFF"
-    },
-    "fullscreen": {
-      "gradient_start": "#E93B3B",
-      "gradient_end": "#EF5A1C",
-      "text_color": "#FFFFFF"
-    }
+    "home_app_bar_pro": 1
   }
 }

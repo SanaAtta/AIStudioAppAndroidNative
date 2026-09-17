@@ -7,17 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
 
     <!-- Splash / brand -->
-    <color name="splash_background">#FF0B1220</color>
-    <color name="splash_accent">#FF2DD4BF</color>
-    <color name="splash_icon_bg">#FF132033</color>
-
+    <color name="splash_background">#FFF5F7FF</color>
+    <color name="splash_accent">#FF5C2DF5</color>
+    <color name="splash_icon_bg">#FFF0F2FF</color>
     <color name="native_ad_primary_text">#DE000000</color>
     <color name="native_ad_secondary_text">#99000000</color>
-    <color name="native_ad_banner_fill">#1AEF5A1C</color>
-    <color name="native_ad_banner_border">#33EF5A1C</color>
-    <color name="native_ad_medium_card_fill">#1FEF5A1C</color>
-    <color name="native_ad_medium_card_stroke">#99EF5A1C</color>
-
+    <color name="native_ad_banner_fill">#1A7C4DFF</color>
+    <color name="native_ad_banner_border">#337C4DFF</color>
+    <color name="native_ad_medium_card_fill">#1F7C4DFF</color>
+    <color name="native_ad_medium_card_stroke">#997C4DFF</color>
+    <color name="brand_coral_red">#FF7C4DFF</color>
+    <color name="brand_flame_orange">#FF5C2DF5</color>
 </resources>

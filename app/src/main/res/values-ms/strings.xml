@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Penjana Imej AI</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">Cipta apa sahaja dengan AI</string>
+    <string name="splash_loading">Memuatkan aset…</string>
+
+    <string name="onboarding_title_1">Tukar idea menjadi imej</string>
+    <string name="onboarding_desc_1">Hidupkan imaginasi anda dengan AI yang menakjubkan.</string>
+    <string name="onboarding_button_1">Mula</string>
+
+    <string name="onboarding_title_2">Hidupkan cerita</string>
+    <string name="onboarding_desc_2">Tukar idea mudah menjadi video sinematik AI yang menawan.</string>
+    <string name="onboarding_button_2">Seterusnya →</string>
+
+    <string name="onboarding_title_3">Cipta muzik daripada idea</string>
+    <string name="onboarding_desc_3">Tukar idea anda menjadi muzik unik dengan AI.</string>
+    <string name="onboarding_button_3">Mula mencipta ✨</string>
+
+    <string name="onboarding_skip">Langkau</string>
+
+    <string name="choose_language">Pilih bahasa</string>
+    <string name="language_done">Selesai</string>
+
+    <string name="home_greeting_morning">Selamat pagi 👋</string>
+    <string name="home_greeting_afternoon">Selamat petang 👋</string>
+    <string name="home_greeting_evening">Selamat malam 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">Penjana Imej</string>
+    <string name="home_image_generator_subtitle">Cipta karya AI menakjubkan dalam beberapa saat</string>
+    <string name="home_image_generator_explore">Terokai sekarang</string>
+    <string name="home_video_generator_title">Penjana Video</string>
+    <string name="home_video_generator_subtitle">Cipta video AI</string>
+    <string name="home_music_generator_title">Penjana Muzik</string>
+    <string name="home_music_generator_subtitle">Cipta muzik AI</string>
+    <string name="home_recent_creations">Ciptaan AI terkini</string>
+    <string name="home_see_all">Lihat semua</string>
+    <string name="home_recent_empty_hint">Jana imej, video, muzik atau cover untuk melihatnya di sini</string>
+
+    <string name="settings_title">Tetapan</string>
+    <string name="settings_upgrade_pro">Naik taraf ke Pro</string>
+    <string name="settings_upgrade_subtitle">Penjanaan tanpa had · Tiada watermark</string>
+    <string name="settings_upgrade">Naik taraf</string>
+    <string name="settings_go_premium">Jadi Premium</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">Buka semua ciri Premium dan nikmati tanpa iklan</string>
+    <string name="settings_section_appearance">PENAMPILAN</string>
+    <string name="settings_section_account">AKAUN</string>
+    <string name="settings_section_help">BANTUAN</string>
+    <string name="settings_dark_mode">Mod gelap</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_favourites">Kegemaran</string>
+    <string name="settings_privacy">Privasi</string>
+    <string name="settings_terms">Terma perkhidmatan</string>
+    <string name="settings_rate_app">Nilai aplikasi</string>
+    <string name="settings_share_app">Kongsi aplikasi</string>
+    <string name="settings_help_center">Pusat bantuan</string>
+    <string name="settings_about">Perihal</string>
+
+    <string name="premium_close">Tutup</string>
+    <string name="premium_slide_image">Penjana Imej AI</string>
+    <string name="premium_slide_video">Penjana Video AI</string>
+    <string name="premium_slide_music">Penjana Muzik AI</string>
+    <string name="premium_slide_edit">Studio Edit AI</string>
+    <string name="premium_feature_unlimited_title">Tanpa had</string>
+    <string name="premium_feature_unlimited_subtitle">Penjanaan</string>
+    <string name="premium_feature_no_ads_title">Tiada iklan</string>
+    <string name="premium_feature_no_ads_subtitle">Pengalaman</string>
+    <string name="premium_feature_priority_title">Keutamaan</string>
+    <string name="premium_feature_priority_subtitle">Pemprosesan</string>
+    <string name="premium_feature_downloads_title">Kualiti tinggi</string>
+    <string name="premium_feature_downloads_subtitle">Muat turun</string>
+    <string name="premium_feature_early_title">Akses awal</string>
+    <string name="premium_feature_early_subtitle">Alat baharu</string>
+    <string name="premium_unlock">Buka kunci</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">Ciri</string>
+    <string name="premium_best_choice">PILIHAN TERBAIK</string>
+    <string name="premium_plan_yearly">Pelan tahunan</string>
+    <string name="premium_plan_yearly_subtitle">Hanya Rs 9,500 setahun</string>
+    <string name="premium_plan_weekly">Pelan mingguan</string>
+    <string name="premium_plan_weekly_subtitle">Pelan akan diperbaharui setiap minggu</string>
+    <string name="premium_per_week">Seminggu</string>
+    <string name="premium_save_badge">Jimat 80%</string>
+    <string name="premium_trial_prefix">9500/tahun - Selepas</string>
+    <string name="premium_trial_highlight">Percubaan percuma 3 hari</string>
+    <string name="premium_subscribe">Langgan</string>
+    <string name="premium_disclaimer">Langganan anda akan diperbaharui secara automatik apabila percubaan percuma tamat. Anda boleh batalkan bila-bila masa.</string>
+    <string name="premium_footer_links">Terma Perkhidmatan | Dasar Privasi | Batalkan langganan</string>
+
+    <string name="error_prompt_required">Masukkan prompt sebelum menjana</string>
+    <string name="error_deapi_key_missing">Kunci deAPI tiada. Tambah deapi.api.key ke secrets.properties, kemudian Rebuild Project</string>
+    <string name="error_pollinations_key_missing">Kunci Pollinations tiada. Tambah pollinations.api.key ke secrets.properties</string>
+    <string name="error_voice_sample_required">Muat naik atau rakam sampel suara dahulu (min. 10s)</string>
+    <string name="error_audio_too_short">Sampel audio mesti sekurang-kurangnya 10 saat</string>
+    <string name="error_audio_too_long">Sampel audio mesti kurang daripada 60 saat</string>
+    <string name="error_record_min_seconds">Rakam sekurang-kurangnya 10 saat</string>
+
+    <string name="back">Kembali</string>
+    <string name="duration">Tempoh</string>
+    <string name="style">Gaya</string>
+    <string name="aspect_ratio">Nisbah aspek</string>
+    <string name="mood">Suasana</string>
+    <string name="genre">Genre</string>
+
+    <string name="image_generator_title">Penjana Imej</string>
+    <string name="image_generator_subtitle">Cipta karya AI daripada teks</string>
+    <string name="image_prompt_label">Huraikan imej anda</string>
+    <string name="image_prompt_hint">Bandar cyberpunk futuristik pada waktu malam dengan lampu neon di jalan basah, gaya anime, ultra terperinci, 4K</string>
+    <string name="styles">Gaya</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">Jana imej</string>
+    <string name="generating_image">Menjana imej</string>
+
+    <string name="video_generator_title">Penjana Video</string>
+    <string name="video_generator_subtitle">Cipta video AI daripada teks</string>
+    <string name="video_prompt_label">Prompt video</string>
+    <string name="camera_motion">Gerakan kamera</string>
+    <string name="generate_video">Jana video</string>
+    <string name="generating_video">Menjana video</string>
+    <string name="recent_videos">Video terkini</string>
+
+    <string name="music_generator_title">Penjana Muzik</string>
+    <string name="music_generator_subtitle">Cipta muzik AI daripada teks</string>
+    <string name="music_prompt_label">Huraikan muzik anda</string>
+    <string name="voice_style">Gaya suara</string>
+    <string name="generate_music">Jana muzik</string>
+    <string name="generating_music">Menjana muzik</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">Editor AI</string>
+    <string name="ai_edit_subtitle">Alat penyuntingan profesional dikuasakan AI</string>
+    <string name="ai_edit_search_hint">Apa yang ingin anda sunting?</string>
+    <string name="ai_edit_tools_title">Alat penyuntingan</string>
+    <string name="ai_edit_tools_count">%1$d alat</string>
+    <string name="ai_edit_select_tool">Pilih alat penyuntingan di atas</string>
+    <string name="ai_edit_upload_title">Muat naik imej untuk disunting</string>
+    <string name="ai_edit_upload_hint">JPG, PNG, WEBP sehingga 20MB</string>
+    <string name="ai_edit_apply">Gunakan suntingan</string>
+    <string name="ai_edit_apply_tool">Gunakan %1$s</string>
+    <string name="ai_edit_editing">Menyunting</string>
+    <string name="ai_edit_search">Cari</string>
+    <string name="ai_edit_selected_image">Imej dipilih</string>
+    <string name="ai_edit_result_title">Hasil suntingan</string>
+    <string name="ai_edit_result_empty">Tiada imej disunting untuk dipaparkan</string>
+    <string name="ai_edit_edited_with">Disunting dengan %1$s</string>
+    <string name="ai_edit_before_after">Sebelum &amp; selepas</string>
+    <string name="ai_edit_original">Asal</string>
+    <string name="ai_edit_edited">Disunting</string>
+    <string name="ai_edit_download">Muat turun</string>
+    <string name="ai_edit_share">Kongsi</string>
+    <string name="ai_edit_edit_again">Sunting semula</string>
+    <string name="ai_edit_prompt_label">PROMPT SUNTINGAN</string>
+    <string name="ai_edit_share_chooser">Kongsi imej yang disunting</string>
+    <string name="ai_edit_saved_gallery">Disimpan ke galeri</string>
+    <string name="ai_edit_download_failed">Muat turun gagal</string>
+    <string name="ai_edit_failed">Suntingan gagal</string>
+    <string name="edit_tool_remove_bg">Buang BG</string>
+    <string name="edit_tool_magic_eraser">Pemadam ajaib</string>
+    <string name="edit_tool_ai_enhance">Tingkatkan AI</string>
+    <string name="edit_tool_replace_obj">Ganti objek</string>
+    <string name="edit_tool_upscaler">Upscaler</string>
+    <string name="edit_tool_face_enhance">Tingkatkan muka</string>
+    <string name="edit_tool_sky_replace">Ganti langit</string>
+    <string name="edit_tool_colorize">Warnakan</string>
+    <string name="edit_tool_bg_generator">Penjana BG</string>
+    <string name="edit_tool_ai_expand">Kembangkan AI</string>
+
+    <string name="ai_cover_title">Cover AI</string>
+    <string name="ai_cover_subtitle">Cipta cover lagu dengan suara AI</string>
+    <string name="upload_your_voice">Muat naik suara anda</string>
+    <string name="upload_voice_hint">Rakam atau muat naik sampel audio (min. 10s)</string>
+    <string name="upload_audio">Muat naik audio</string>
+    <string name="record_audio">Rakam audio</string>
+    <string name="stop_recording">Hentikan rakaman</string>
+    <string name="choose_singer_style">Pilih gaya penyanyi</string>
+    <string name="generate_cover">Jana cover</string>
+    <string name="generating_cover">Menjana cover</string>
+    <string name="my_covers">Cover saya</string>
+
+    <string name="library_title">Perpustakaan</string>
+    <string name="library_tab_all">Semua</string>
+    <string name="library_tab_images">Imej</string>
+    <string name="library_tab_videos">Video</string>
+    <string name="library_tab_music">Muzik</string>
+    <string name="library_tab_saved">Disimpan</string>
+    <string name="library_empty">Tiada ciptaan lagi</string>
+    <string name="library_empty_saved">Tiada item disimpan lagi</string>
+    <string name="favourites_title">Kegemaran</string>
+    <string name="favourites_empty">Tiada kegemaran lagi</string>
+    <string name="nav_home">Laman utama</string>
+    <string name="nav_ai_cover">Cover AI</string>
+    <string name="nav_ai_edit">Edit AI</string>
+    <string name="nav_ai_wallpaper">Wallpaper AI</string>
+    <string name="nav_library">Pustaka</string>
+    <string name="exit_title">Keluar aplikasi?</string>
+    <string name="exit_subtitle">Pasti mahu keluar? Kembali bila-bila masa untuk cipta lagi dengan AI.</string>
+    <string name="exit_stay">Kekal</string>
+    <string name="exit_confirm">Keluar</string>
+    <string name="press_back_again_to_exit">Tekan kembali lagi untuk keluar</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">Laporkan Kandungan</string>
+    <string name="report_content_subtitle">Bantu kami memastikan kandungan AI selamat.</string>
+    <string name="report_reason_offensive">Kandungan menyinggung atau kesat</string>
+    <string name="report_reason_sexual">Kandungan seksual atau tidak wajar</string>
+    <string name="report_reason_hate">Kandungan kebencian atau diskriminasi</string>
+    <string name="report_reason_violent">Kandungan ganas atau grafik</string>
+    <string name="report_reason_other">Lain-lain</string>
+    <string name="report_cancel">Batal</string>
+    <string name="report_submit">Hantar Laporan</string>
+    <string name="report_submitting">Menghantar laporan…</string>
+    <string name="report_success">Laporan berjaya dihantar. Terima kasih atas maklum balas anda!</string>
+    <string name="report_failed">Gagal menghantar laporan. Sila cuba lagi.</string>
+    <string name="report_retry">Cuba Lagi</string>
+    <string name="report_more_options">Pilihan lain</string>
+    <string name="report_menu_item">Laporkan Kandungan</string>
+    <string name="report_additional_details">Maklumat tambahan (diperlukan untuk lain-lain)</string>
+    <string name="report_validation_select_reason">Sila pilih sebab sebelum menghantar.</string>
+    <string name="report_validation_provide_details">Sila terangkan isu dalam ruangan butiran.</string>
+</resources>

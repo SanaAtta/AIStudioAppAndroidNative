@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nativeAdViewContainer"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/native_ad_banner_bg">
+    android:layout_height="wrap_content">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/_12sdp"
-        android:paddingVertical="@dimen/_8sdp">
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="6dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,20 +19,19 @@
                 android:id="@+id/adContentLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="4dp"
                 android:orientation="horizontal">
 
-                <!-- App Icon -->
                 <ImageView
                     android:id="@+id/ad_app_icon"
                     android:layout_width="55dp"
                     android:layout_height="55dp" />
 
-                <!-- Right Content -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_marginStart="3dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
@@ -50,21 +47,20 @@
                             android:layout_weight="1"
                             android:ellipsize="end"
                             android:maxLines="1"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                            android:textColor="@color/native_ad_primary_text"
+                            android:textColor="@color/ad_text_primary"
                             android:textSize="15sp" />
 
                         <TextView
                             android:id="@+id/ad_badge"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
                             android:background="@drawable/bg_ad_badge"
                             android:gravity="center"
-                            android:layout_marginStart="@dimen/_4sdp"
-                            android:paddingHorizontal="@dimen/_4sdp"
-                            android:paddingVertical="@dimen/_2sdp"
-                            android:text="@string/onboarding_ad_badge"
-                            android:textColor="@color/white"
+                            android:paddingHorizontal="4dp"
+                            android:paddingVertical="2dp"
+                            android:text="@string/native_ad_badge"
+                            android:textColor="@color/ad_text_on_cta"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -73,29 +69,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:maxLines="2"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                        android:textColor="@color/native_ad_secondary_text"
+                        android:textColor="@color/ad_text_primary"
                         android:textSize="13sp" />
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- CTA: platform Button avoids AppCompat backgroundTint wiping fill + label -->
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/ad_call_to_action"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_6sdp"
-                android:layout_marginBottom="@dimen/_2sdp"
-                android:background="@drawable/native_ad_cta_bg"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="5dp"
                 android:ellipsize="end"
                 android:gravity="center"
-                android:minHeight="@dimen/_40sdp"
-                android:paddingVertical="@dimen/_8sdp"
-                android:text="@string/native_ad_install"
-                android:textAllCaps="true"
-                android:textStyle="bold"
-                android:textColor="@color/white" />
-
+                android:paddingVertical="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/ad_text_on_cta" />
         </LinearLayout>
 
         <com.google.android.gms.ads.nativead.AdChoicesView
@@ -103,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|end"
-            android:elevation="@dimen/_2sdp"
+            android:elevation="2dp"
             android:padding="4dp" />
     </FrameLayout>
 </com.google.android.gms.ads.nativead.NativeAdView>

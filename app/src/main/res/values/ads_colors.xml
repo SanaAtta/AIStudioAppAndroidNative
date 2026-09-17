@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ad_text_primary">#FF1C1B1F</color>
+    <color name="ad_text_on_cta">#FFFFFFFF</color>
+    <color name="ad_shimmer_fill">#1A7C4DFF</color>
+    <color name="ad_shimmer_border">#337C4DFF</color>
+    <color name="ad_badge_bg">#FF7C4DFF</color>
+</resources>

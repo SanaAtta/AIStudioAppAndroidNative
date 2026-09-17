@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Trình tạo ảnh AI</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">Tạo mọi thứ với AI</string>
+    <string name="splash_loading">Đang tải tài nguyên…</string>
+
+    <string name="onboarding_title_1">Biến ý tưởng thành hình ảnh</string>
+    <string name="onboarding_desc_1">Mang trí tưởng tượng của bạn vào cuộc sống với AI ấn tượng.</string>
+    <string name="onboarding_button_1">Bắt đầu</string>
+
+    <string name="onboarding_title_2">Mang câu chuyện vào cuộc sống</string>
+    <string name="onboarding_desc_2">Biến ý tưởng đơn giản thành video điện ảnh AI hấp dẫn.</string>
+    <string name="onboarding_button_2">Tiếp theo →</string>
+
+    <string name="onboarding_title_3">Tạo nhạc từ ý tưởng</string>
+    <string name="onboarding_desc_3">Biến ý tưởng của bạn thành nhạc độc đáo với AI.</string>
+    <string name="onboarding_button_3">Bắt đầu sáng tạo ✨</string>
+
+    <string name="onboarding_skip">Bỏ qua</string>
+
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="language_done">Xong</string>
+
+    <string name="home_greeting_morning">Chào buổi sáng 👋</string>
+    <string name="home_greeting_afternoon">Chào buổi chiều 👋</string>
+    <string name="home_greeting_evening">Chào buổi tối 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">Trình tạo ảnh</string>
+    <string name="home_image_generator_subtitle">Tạo tác phẩm AI ấn tượng trong vài giây</string>
+    <string name="home_image_generator_explore">Khám phá ngay</string>
+    <string name="home_video_generator_title">Trình tạo video</string>
+    <string name="home_video_generator_subtitle">Tạo video AI</string>
+    <string name="home_music_generator_title">Trình tạo nhạc</string>
+    <string name="home_music_generator_subtitle">Tạo nhạc AI</string>
+    <string name="home_recent_creations">Sáng tạo AI gần đây</string>
+    <string name="home_see_all">Xem tất cả</string>
+    <string name="home_recent_empty_hint">Tạo ảnh, video, nhạc hoặc cover để xem chúng tại đây</string>
+
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_upgrade_pro">Nâng cấp lên Pro</string>
+    <string name="settings_upgrade_subtitle">Tạo không giới hạn · Không watermark</string>
+    <string name="settings_upgrade">Nâng cấp</string>
+    <string name="settings_go_premium">Nâng cấp Premium</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">Mở khóa mọi tính năng Premium và trải nghiệm không quảng cáo</string>
+    <string name="settings_section_appearance">GIAO DIỆN</string>
+    <string name="settings_section_account">TÀI KHOẢN</string>
+    <string name="settings_section_help">TRỢ GIÚP</string>
+    <string name="settings_dark_mode">Chế độ tối</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_favourites">Yêu thích</string>
+    <string name="settings_privacy">Quyền riêng tư</string>
+    <string name="settings_terms">Điều khoản dịch vụ</string>
+    <string name="settings_rate_app">Đánh giá ứng dụng</string>
+    <string name="settings_share_app">Chia sẻ ứng dụng</string>
+    <string name="settings_help_center">Trung tâm trợ giúp</string>
+    <string name="settings_about">Giới thiệu</string>
+
+    <string name="premium_close">Đóng</string>
+    <string name="premium_slide_image">Trình tạo ảnh AI</string>
+    <string name="premium_slide_video">Trình tạo video AI</string>
+    <string name="premium_slide_music">Trình tạo nhạc AI</string>
+    <string name="premium_slide_edit">Studio chỉnh sửa AI</string>
+    <string name="premium_feature_unlimited_title">Không giới hạn</string>
+    <string name="premium_feature_unlimited_subtitle">Lượt tạo</string>
+    <string name="premium_feature_no_ads_title">Không quảng cáo</string>
+    <string name="premium_feature_no_ads_subtitle">Trải nghiệm</string>
+    <string name="premium_feature_priority_title">Ưu tiên</string>
+    <string name="premium_feature_priority_subtitle">Xử lý</string>
+    <string name="premium_feature_downloads_title">Chất lượng cao</string>
+    <string name="premium_feature_downloads_subtitle">Tải xuống</string>
+    <string name="premium_feature_early_title">Truy cập sớm</string>
+    <string name="premium_feature_early_subtitle">Công cụ mới</string>
+    <string name="premium_unlock">Mở khóa</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">Tính năng</string>
+    <string name="premium_best_choice">LỰA CHỌN TỐT NHẤT</string>
+    <string name="premium_plan_yearly">Gói năm</string>
+    <string name="premium_plan_yearly_subtitle">Chỉ Rs 9.500 mỗi năm</string>
+    <string name="premium_plan_weekly">Gói tuần</string>
+    <string name="premium_plan_weekly_subtitle">Gói sẽ gia hạn mỗi tuần</string>
+    <string name="premium_per_week">Mỗi tuần</string>
+    <string name="premium_save_badge">Tiết kiệm 80%</string>
+    <string name="premium_trial_prefix">9500/năm - Sau</string>
+    <string name="premium_trial_highlight">Dùng thử miễn phí 3 ngày</string>
+    <string name="premium_subscribe">Đăng ký</string>
+    <string name="premium_disclaimer">Gói đăng ký sẽ tự động gia hạn khi hết thời gian dùng thử. Bạn có thể hủy bất cứ lúc nào.</string>
+    <string name="premium_footer_links">Điều khoản dịch vụ | Chính sách bảo mật | Hủy đăng ký</string>
+
+    <string name="error_prompt_required">Nhập prompt trước khi tạo</string>
+    <string name="error_deapi_key_missing">Thiếu khóa deAPI. Thêm deapi.api.key vào secrets.properties, sau đó Rebuild Project</string>
+    <string name="error_pollinations_key_missing">Thiếu khóa Pollinations. Thêm pollinations.api.key vào secrets.properties</string>
+    <string name="error_voice_sample_required">Tải lên hoặc ghi mẫu giọng nói trước (tối thiểu 10 giây)</string>
+    <string name="error_audio_too_short">Mẫu âm thanh phải dài ít nhất 10 giây</string>
+    <string name="error_audio_too_long">Mẫu âm thanh phải dưới 60 giây</string>
+    <string name="error_record_min_seconds">Ghi ít nhất 10 giây</string>
+
+    <string name="back">Quay lại</string>
+    <string name="duration">Thời lượng</string>
+    <string name="style">Phong cách</string>
+    <string name="aspect_ratio">Tỷ lệ khung hình</string>
+    <string name="mood">Tâm trạng</string>
+    <string name="genre">Thể loại</string>
+
+    <string name="image_generator_title">Trình tạo ảnh</string>
+    <string name="image_generator_subtitle">Tạo tác phẩm AI từ văn bản</string>
+    <string name="image_prompt_label">Mô tả hình ảnh của bạn</string>
+    <string name="image_prompt_hint">Thành phố cyberpunk tương lai về đêm với đèn neon phản chiếu trên đường ướt, phong cách anime, siêu chi tiết, 4K</string>
+    <string name="styles">Phong cách</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">Tạo ảnh</string>
+    <string name="generating_image">Đang tạo ảnh</string>
+
+    <string name="video_generator_title">Trình tạo video</string>
+    <string name="video_generator_subtitle">Tạo video AI từ văn bản</string>
+    <string name="video_prompt_label">Prompt video</string>
+    <string name="camera_motion">Chuyển động camera</string>
+    <string name="generate_video">Tạo video</string>
+    <string name="generating_video">Đang tạo video</string>
+    <string name="recent_videos">Video gần đây</string>
+
+    <string name="music_generator_title">Trình tạo nhạc</string>
+    <string name="music_generator_subtitle">Tạo nhạc AI từ văn bản</string>
+    <string name="music_prompt_label">Mô tả nhạc của bạn</string>
+    <string name="voice_style">Phong cách giọng</string>
+    <string name="generate_music">Tạo nhạc</string>
+    <string name="generating_music">Đang tạo nhạc</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">Trình chỉnh sửa AI</string>
+    <string name="ai_edit_subtitle">Công cụ chỉnh sửa chuyên nghiệp bằng AI</string>
+    <string name="ai_edit_search_hint">Bạn muốn chỉnh sửa gì?</string>
+    <string name="ai_edit_tools_title">Công cụ chỉnh sửa</string>
+    <string name="ai_edit_tools_count">%1$d công cụ</string>
+    <string name="ai_edit_select_tool">Chọn một công cụ ở trên</string>
+    <string name="ai_edit_upload_title">Tải ảnh lên để chỉnh sửa</string>
+    <string name="ai_edit_upload_hint">JPG, PNG, WEBP tối đa 20MB</string>
+    <string name="ai_edit_apply">Áp dụng chỉnh sửa</string>
+    <string name="ai_edit_apply_tool">Áp dụng %1$s</string>
+    <string name="ai_edit_editing">Đang chỉnh sửa</string>
+    <string name="ai_edit_search">Tìm kiếm</string>
+    <string name="ai_edit_selected_image">Ảnh đã chọn</string>
+    <string name="ai_edit_result_title">Kết quả chỉnh sửa</string>
+    <string name="ai_edit_result_empty">Không có ảnh đã chỉnh sửa để hiển thị</string>
+    <string name="ai_edit_edited_with">Đã chỉnh sửa bằng %1$s</string>
+    <string name="ai_edit_before_after">Trước &amp; sau</string>
+    <string name="ai_edit_original">Gốc</string>
+    <string name="ai_edit_edited">Đã sửa</string>
+    <string name="ai_edit_download">Tải xuống</string>
+    <string name="ai_edit_share">Chia sẻ</string>
+    <string name="ai_edit_edit_again">Chỉnh sửa lại</string>
+    <string name="ai_edit_prompt_label">PROMPT CHỈNH SỬA</string>
+    <string name="ai_edit_share_chooser">Chia sẻ ảnh đã chỉnh sửa</string>
+    <string name="ai_edit_saved_gallery">Đã lưu vào thư viện</string>
+    <string name="ai_edit_download_failed">Tải xuống thất bại</string>
+    <string name="ai_edit_failed">Chỉnh sửa thất bại</string>
+    <string name="edit_tool_remove_bg">Xóa nền</string>
+    <string name="edit_tool_magic_eraser">Tẩy ma thuật</string>
+    <string name="edit_tool_ai_enhance">Nâng cao AI</string>
+    <string name="edit_tool_replace_obj">Thay đối tượng</string>
+    <string name="edit_tool_upscaler">Phóng to</string>
+    <string name="edit_tool_face_enhance">Làm đẹp mặt</string>
+    <string name="edit_tool_sky_replace">Đổi bầu trời</string>
+    <string name="edit_tool_colorize">Tô màu</string>
+    <string name="edit_tool_bg_generator">Tạo nền</string>
+    <string name="edit_tool_ai_expand">Mở rộng AI</string>
+
+    <string name="ai_cover_title">Cover AI</string>
+    <string name="ai_cover_subtitle">Tạo cover bài hát bằng giọng AI</string>
+    <string name="upload_your_voice">Tải lên giọng của bạn</string>
+    <string name="upload_voice_hint">Ghi hoặc tải lên mẫu âm thanh (tối thiểu 10 giây)</string>
+    <string name="upload_audio">Tải lên âm thanh</string>
+    <string name="record_audio">Ghi âm</string>
+    <string name="stop_recording">Dừng ghi</string>
+    <string name="choose_singer_style">Chọn phong cách ca sĩ</string>
+    <string name="generate_cover">Tạo cover</string>
+    <string name="generating_cover">Đang tạo cover</string>
+    <string name="my_covers">Cover của tôi</string>
+
+    <string name="library_title">Thư viện</string>
+    <string name="library_tab_all">Tất cả</string>
+    <string name="library_tab_images">Ảnh</string>
+    <string name="library_tab_videos">Video</string>
+    <string name="library_tab_music">Nhạc</string>
+    <string name="library_tab_saved">Đã lưu</string>
+    <string name="library_empty">Chưa có tác phẩm nào</string>
+    <string name="library_empty_saved">Chưa có mục đã lưu</string>
+    <string name="favourites_title">Yêu thích</string>
+    <string name="favourites_empty">Chưa có mục yêu thích</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_ai_cover">Cover AI</string>
+    <string name="nav_ai_edit">Chỉnh sửa AI</string>
+    <string name="nav_ai_wallpaper">Hình nền AI</string>
+    <string name="nav_library">Thư viện</string>
+    <string name="exit_title">Thoát ứng dụng?</string>
+    <string name="exit_subtitle">Bạn chắc muốn rời đi? Quay lại bất cứ lúc nào để tạo thêm với AI.</string>
+    <string name="exit_stay">Ở lại</string>
+    <string name="exit_confirm">Thoát</string>
+    <string name="press_back_again_to_exit">Nhấn quay lại lần nữa để thoát</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">Báo cáo nội dung</string>
+    <string name="report_content_subtitle">Giúp chúng tôi giữ cho nội dung do AI tạo an toàn.</string>
+    <string name="report_reason_offensive">Nội dung xúc phạm hoặc lăng mạ</string>
+    <string name="report_reason_sexual">Nội dung tình dục hoặc không phù hợp</string>
+    <string name="report_reason_hate">Nội dung thù hận hoặc phân biệt đối xử</string>
+    <string name="report_reason_violent">Nội dung bạo lực hoặc phản cảm</string>
+    <string name="report_reason_other">Khác</string>
+    <string name="report_cancel">Hủy</string>
+    <string name="report_submit">Gửi báo cáo</string>
+    <string name="report_submitting">Đang gửi báo cáo…</string>
+    <string name="report_success">Đã gửi báo cáo thành công. Cảm ơn phản hồi của bạn!</string>
+    <string name="report_failed">Không thể gửi báo cáo. Vui lòng thử lại.</string>
+    <string name="report_retry">Thử lại</string>
+    <string name="report_more_options">Tùy chọn khác</string>
+    <string name="report_menu_item">Báo cáo nội dung</string>
+    <string name="report_additional_details">Chi tiết bổ sung (bắt buộc cho lý do khác)</string>
+    <string name="report_validation_select_reason">Vui lòng chọn một lý do trước khi gửi.</string>
+    <string name="report_validation_provide_details">Vui lòng mô tả sự cố trong ô chi tiết.</string>
+</resources>

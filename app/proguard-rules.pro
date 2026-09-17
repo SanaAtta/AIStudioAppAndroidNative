@@ -14,8 +14,18 @@
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+# AI Content Report models & repository
+-keep class com.aiartgenerator.imagegenerator.videogenerator.model.report.** { *; }
+-keepnames class com.aiartgenerator.imagegenerator.videogenerator.model.report.** { *; }
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Google Play Services Ads
+-keep class com.google.android.gms.ads.** { *; }
+-keep interface com.google.android.gms.ads.** { *; }
+
+# Google User Messaging Platform (UMP)
+-keep class com.google.android.ump.** { *; }
+-keep interface com.google.android.ump.** { *; }
+
+# Project Ads package & Remote Config models
+-keep class com.aiartgenerator.imagegenerator.videogenerator.ads.** { *; }
+-keepnames class com.aiartgenerator.imagegenerator.videogenerator.ads.** { *; }

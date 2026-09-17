@@ -1,9 +1,276 @@
 <resources>
-    <string name="app_name">AI Image Generator</string>
-    <string name="splash_tagline">Turn ideas into images</string>
-
+    <string name="app_name">Pixora Ai</string>
+    <string name="admob_app_id">ca-app-pub-7377715706921836~3455916851</string>
     <string name="native_ad_loading">Ad is Loading…</string>
-    <string name="native_ad_install">Install</string>
-    <string name="error_prompt_unsafe">This prompt is not allowed. Please use safe and respectful language.</string>
+    <string name="native_ad_badge">Ad</string>
+    <string name="onboarding_ad_badge">Ad</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">Create Anything with AI</string>
+    <string name="splash_loading">Loading assets…</string>
 
+    <string name="onboarding_title_1">Turn Ideas Into Images</string>
+    <string name="onboarding_desc_1">Bring your imagination to life with stunning AI.</string>
+    <string name="onboarding_button_1">Next</string>
+
+    <string name="onboarding_title_2">Bring Stories To Life</string>
+    <string name="onboarding_desc_2">Turn simple ideas into captivating cinematic AI videos.</string>
+    <string name="onboarding_button_2">Next</string>
+
+    <string name="onboarding_title_3">Make Music From Ideas</string>
+    <string name="onboarding_desc_3">Transform your ideas into unique music with AI.</string>
+    <string name="onboarding_button_3">Get Started</string>
+
+    <string name="onboarding_skip">Skip</string>
+
+    <string name="choose_language">Choose Language</string>
+    <string name="language_done">Done</string>
+
+    <string name="home_greeting_morning">Good morning 👋</string>
+    <string name="home_greeting_afternoon">Good afternoon 👋</string>
+    <string name="home_greeting_evening">Good evening 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">Image Generator</string>
+    <string name="home_image_generator_subtitle">Create stunning AI artwork in seconds</string>
+    <string name="home_image_generator_explore">Explore Now</string>
+    <string name="home_video_generator_title">Video Generator</string>
+    <string name="home_video_generator_subtitle">Make AI videos</string>
+    <string name="home_music_generator_title">Music Generator</string>
+    <string name="home_music_generator_subtitle">Create AI music</string>
+    <string name="home_recent_creations">Recent AI Creations</string>
+    <string name="home_see_all">See all</string>
+    <string name="home_recent_empty_hint">Generate images, videos, music, or covers to see them here</string>
+
+    <string name="settings_title">Setting</string>
+    <string name="settings_upgrade_pro">Upgrade to Pro</string>
+    <string name="settings_upgrade_subtitle">Unlimited generations · No watermarks</string>
+    <string name="settings_upgrade">Upgrade</string>
+    <string name="settings_go_premium">Go Premium</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">Unlock all Premium feature and enjoy ad-free experience</string>
+    <string name="settings_section_appearance">APPEARANCE</string>
+    <string name="settings_section_account">ACCOUNT</string>
+    <string name="settings_section_help">HELP</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_favourites">Favourite</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_rate_app">Rate App</string>
+    <string name="settings_share_app">Share App</string>
+    <string name="settings_help_center">Help Center</string>
+    <string name="settings_about">About</string>
+
+    <string name="premium_close">Close</string>
+    <string name="premium_slide_image">Ai Image Generator</string>
+    <string name="premium_slide_video">Ai Video Generator</string>
+    <string name="premium_slide_music">Ai Music Generator</string>
+    <string name="premium_slide_edit">Ai Edit Studio</string>
+    <string name="premium_feature_unlimited_title">Unlimited</string>
+    <string name="premium_feature_unlimited_subtitle">Generations</string>
+    <string name="premium_feature_no_ads_title">No Ads</string>
+    <string name="premium_feature_no_ads_subtitle">Experience</string>
+    <string name="premium_feature_priority_title">Priority</string>
+    <string name="premium_feature_priority_subtitle">Processing</string>
+    <string name="premium_feature_downloads_title">High Quality</string>
+    <string name="premium_feature_downloads_subtitle">Downloads</string>
+    <string name="premium_feature_early_title">Early Access</string>
+    <string name="premium_feature_early_subtitle">To New Tools</string>
+    <string name="premium_unlock">Unlock</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">Features</string>
+    <string name="premium_best_choice">BEST CHOICE</string>
+    <string name="premium_plan_yearly">Yearly Plan</string>
+    <string name="premium_plan_yearly_subtitle">Just Rs 9,500 per year</string>
+    <string name="premium_plan_monthly">Monthly Plan</string>
+    <string name="premium_plan_monthly_subtitle">Plan will renew every month</string>
+    <string name="premium_plan_weekly">Weekly Plan</string>
+    <string name="premium_plan_weekly_subtitle">Plan will renew every week</string>
+    <string name="premium_per_week">Per Week</string>
+    <string name="premium_per_month">Per Month</string>
+    <string name="premium_save_badge">Save 80%</string>
+    <string name="premium_trial_prefix">9500/year - After</string>
+    <string name="premium_trial_highlight">Free 3 Days Trial</string>
+    <string name="premium_subscribe">Subscribe</string>
+    <string name="premium_subscribing">Processing…</string>
+    <string name="premium_billing_not_configured">Subscription products are not configured yet.</string>
+    <string name="premium_billing_cancelled">Purchase cancelled.</string>
+    <string name="premium_billing_failed">Purchase failed. Please try again.</string>
+    <string name="premium_billing_product_missing">Subscription product not found.</string>
+    <string name="premium_disclaimer">Your subscription will automatically renew when the free trial ends. You may cancel at any time.</string>
+    <string name="premium_footer_links">Terms of Service | Privacy Policy | Cancel Subscription</string>
+    <string name="premium_restore">Restore purchases</string>
+    <string name="premium_restore_none">No active subscription found.</string>
+
+    <!-- Errors -->
+    <string name="error_prompt_required">Enter a prompt before generating</string>
+    <string name="error_prompt_unsafe">This prompt is not allowed. Please use safe and respectful language.</string>
+    <string name="error_deapi_key_missing">deAPI key missing. Add deapi_api_key in Firebase Remote Config.</string>
+    <string name="error_pollinations_key_missing">Pollinations API key missing. Add pollinations_api_key in Firebase Remote Config.</string>
+    <string name="error_voice_sample_required">Upload or record a voice sample first (min 10s)</string>
+    <string name="error_audio_too_short">Audio sample must be at least 10 seconds</string>
+    <string name="error_audio_too_long">Audio sample must be under 60 seconds</string>
+    <string name="error_record_min_seconds">Record at least 10 seconds</string>
+    <string name="error_recording_start">Could not start recording</string>
+    <string name="error_recording_failed">Recording failed</string>
+    <string name="error_cover_generation_failed">Cover generation failed</string>
+    <string name="error_audio_format_unsupported">Unsupported audio format. Use wav, mp3, flac, ogg, or m4a.</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="duration">Duration</string>
+    <string name="style">Style</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="mood">Mood</string>
+    <string name="genre">Genre</string>
+
+    <!-- Image Generator -->
+    <string name="image_generator_title">Image Generator</string>
+    <string name="image_generator_subtitle">Create AI artwork from text</string>
+    <string name="image_prompt_label">Describe your image</string>
+    <string name="image_prompt_hint">A futuristic cyberpunk city at night with neon lights reflecting on wet streets, anime style, ultra detailed, 4K</string>
+    <string name="styles">Styles</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">Generate Image</string>
+    <string name="free_limit_reached">Free limit reached. Upgrade to Premium to continue.</string>
+    <string name="generating_image">Generating image</string>
+
+    <!-- Video Generator -->
+    <string name="video_generator_title">Video Generator</string>
+    <string name="video_generator_subtitle">Create AI videos from text</string>
+    <string name="video_prompt_label">Video Prompt</string>
+    <string name="camera_motion">Camera Motion</string>
+    <string name="generate_video">Generate Video</string>
+    <string name="generating_video">Generating video</string>
+    <string name="recent_videos">Recent Videos</string>
+
+    <!-- Music Generator -->
+    <string name="music_generator_title">Music Generator</string>
+    <string name="music_generator_subtitle">Create AI music from text</string>
+    <string name="music_prompt_label">Describe your music</string>
+    <string name="voice_style">Voice Style</string>
+    <string name="generate_music">Generate Music</string>
+    <string name="generating_music">Generating music</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">AI Editor</string>
+    <string name="ai_edit_subtitle">Professional AI-powered editing tools</string>
+    <string name="ai_edit_search_hint">What would you like to edit?</string>
+    <string name="ai_edit_tools_title">Editing Tools</string>
+    <string name="ai_edit_tools_count">%1$d tools</string>
+    <string name="ai_edit_select_tool">Select an editing tool above</string>
+    <string name="ai_edit_upload_title">Upload Image to Edit</string>
+    <string name="ai_edit_upload_hint">JPG, PNG, WEBP up to 20MB</string>
+    <string name="ai_edit_apply">Apply Edit</string>
+    <string name="ai_edit_apply_tool">Apply %1$s</string>
+    <string name="ai_edit_editing">Editing</string>
+    <string name="ai_edit_search">Search</string>
+    <string name="ai_edit_selected_image">Selected image</string>
+    <string name="ai_edit_result_title">Edit Result</string>
+    <string name="ai_edit_result_empty">No edited image to display</string>
+    <string name="ai_edit_edited_with">Edited with %1$s</string>
+    <string name="ai_edit_before_after">Before &amp; After</string>
+    <string name="ai_edit_original">Original</string>
+    <string name="ai_edit_edited">Edited</string>
+    <string name="ai_edit_download">Download</string>
+    <string name="ai_edit_share">Share</string>
+    <string name="ai_edit_edit_again">Edit Again</string>
+    <string name="ai_edit_prompt_label">EDIT PROMPT</string>
+    <string name="ai_edit_share_chooser">Share edited image</string>
+    <string name="ai_edit_saved_gallery">Saved to gallery</string>
+    <string name="ai_edit_download_failed">Download failed</string>
+    <string name="ai_edit_failed">Edit failed</string>
+    <string name="edit_tool_remove_bg">Remove BG</string>
+    <string name="edit_tool_magic_eraser">Magic Eraser</string>
+    <string name="edit_tool_ai_enhance">AI Enhance</string>
+    <string name="edit_tool_replace_obj">Replace Obj</string>
+    <string name="edit_tool_upscaler">Upscaler</string>
+    <string name="edit_tool_face_enhance">Face Enhance</string>
+    <string name="edit_tool_sky_replace">Sky Replace</string>
+    <string name="edit_tool_colorize">Colorize</string>
+    <string name="edit_tool_bg_generator">BG Generator</string>
+    <string name="edit_tool_ai_expand">AI Expand</string>
+
+    <!-- AI Cover -->
+    <string name="ai_cover_title">AI Cover</string>
+    <string name="ai_cover_subtitle">Create AI voice cover songs</string>
+    <string name="cover_recording_progress">Recording… %1$s</string>
+    <string name="cover_recording_hint">Tap stop when finished (min 10s)</string>
+    <string name="cover_voice_ready">Voice sample ready</string>
+    <string name="cover_voice_ready_hint">Preview your audio, then generate your AI cover</string>
+    <string name="cover_playing">Playing…</string>
+    <string name="cover_tap_to_listen">Tap play to listen</string>
+    <string name="cover_replace_audio">Replace audio</string>
+    <string name="cover_recorded_voice">Recorded voice</string>
+    <string name="cover_recording_max_reached">Maximum 60 seconds reached</string>
+    <string name="upload_your_voice">Upload Your Voice</string>
+    <string name="upload_voice_hint">Record or upload an audio sample (min 10s)</string>
+    <string name="upload_audio">Upload Audio</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="choose_singer_style">Choose Singer Style</string>
+    <string name="generate_cover">Generate Cover</string>
+    <string name="generating_cover">Generating cover</string>
+    <string name="my_covers">My Covers</string>
+
+    <!-- Library -->
+    <string name="library_title">Library</string>
+    <string name="wallpapers_title">Wallpapers</string>
+    <string name="library_tab_all">All</string>
+    <string name="library_tab_images">Images</string>
+    <string name="library_tab_videos">Videos</string>
+    <string name="library_tab_music">Music</string>
+    <string name="library_tab_saved">Saved</string>
+    <string name="library_empty">No creations yet</string>
+    <string name="library_empty_saved">No saved items yet</string>
+    <string name="favourites_title">Favourites</string>
+    <string name="favourites_empty">No favourites yet</string>
+
+    <string name="chat_title">AI Assistant</string>
+    <string name="chat_status">Online · Powered by Gemini</string>
+    <string name="chat_input_hint">Type a message…</string>
+    <string name="chat_welcome_message">Hi! I\'m your creative AI assistant. I can help you write, brainstorm ideas, generate images, and more. What would you like to create today?</string>
+
+    <string name="generating_image_status">Image generating</string>
+    <string name="generating_video_status">Video generating</string>
+    <string name="generating_music_status">Music generating</string>
+    <string name="generating_cover_status">Cover generating</string>
+    <string name="generating_please_wait">Please wait while we create your content</string>
+    <string name="generation_failed">Generation failed</string>
+    <string name="generation_error_toast">Something went wrong please try again later</string>
+    <string name="generation_go_back">Go back</string>
+    <string name="ad_loading_title">Loading AD</string>
+    <string name="content_desc_home">Home</string>
+    <string name="exit_title">Exit App?</string>
+    <string name="exit_subtitle">Are you sure you want to leave? Come back anytime to create more with AI.</string>
+    <string name="exit_stay">Stay</string>
+    <string name="exit_confirm">Exit</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_ai_cover">AI Cover</string>
+    <string name="nav_ai_edit">AI Edit</string>
+    <string name="nav_ai_wallpaper">Ai Wallpaper</string>
+    <string name="nav_library">Library</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">Report Content</string>
+    <string name="report_content_subtitle">Help us keep AI-generated content safe.</string>
+    <string name="report_reason_offensive">Offensive or abusive content</string>
+    <string name="report_reason_sexual">Sexual or inappropriate content</string>
+    <string name="report_reason_hate">Hate or discriminatory content</string>
+    <string name="report_reason_violent">Violent or graphic content</string>
+    <string name="report_reason_other">Other</string>
+    <string name="report_cancel">Cancel</string>
+    <string name="report_submit">Submit Report</string>
+    <string name="report_submitting">Submitting report…</string>
+    <string name="report_success">Report submitted successfully. Thank you for your feedback!</string>
+    <string name="report_failed">Failed to submit report. Please try again.</string>
+    <string name="report_retry">Retry</string>
+    <string name="report_more_options">More options</string>
+    <string name="report_menu_item">Report Content</string>
+    <string name="report_additional_details">Additional details (required for other)</string>
+    <string name="report_validation_select_reason">Please select a reason before submitting.</string>
+    <string name="report_validation_provide_details">Please describe the issue in the details field.</string>
+    <string name="paste">Paste</string>
+    <string name="clear">Clear</string>
 </resources>

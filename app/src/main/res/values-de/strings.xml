@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">KI-Bildgenerator</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">Erstelle alles mit KI</string>
+    <string name="splash_loading">Ressourcen werden geladen…</string>
+
+    <string name="onboarding_title_1">Ideen in Bilder verwandeln</string>
+    <string name="onboarding_desc_1">Erwecke deine Fantasie mit beeindruckender KI zum Leben.</string>
+    <string name="onboarding_button_1">Loslegen</string>
+
+    <string name="onboarding_title_2">Geschichten zum Leben erwecken</string>
+    <string name="onboarding_desc_2">Verwandle einfache Ideen in fesselnde filmische KI-Videos.</string>
+    <string name="onboarding_button_2">Weiter →</string>
+
+    <string name="onboarding_title_3">Musik aus Ideen machen</string>
+    <string name="onboarding_desc_3">Verwandle deine Ideen mit KI in einzigartige Musik.</string>
+    <string name="onboarding_button_3">Jetzt erstellen ✨</string>
+
+    <string name="onboarding_skip">Überspringen</string>
+
+    <string name="choose_language">Sprache wählen</string>
+    <string name="language_done">Fertig</string>
+
+    <string name="home_greeting_morning">Guten Morgen 👋</string>
+    <string name="home_greeting_afternoon">Guten Tag 👋</string>
+    <string name="home_greeting_evening">Guten Abend 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">Bildgenerator</string>
+    <string name="home_image_generator_subtitle">Erstelle beeindruckende KI-Kunst in Sekunden</string>
+    <string name="home_image_generator_explore">Jetzt entdecken</string>
+    <string name="home_video_generator_title">Videogenerator</string>
+    <string name="home_video_generator_subtitle">Erstelle KI-Videos</string>
+    <string name="home_music_generator_title">Musikgenerator</string>
+    <string name="home_music_generator_subtitle">Erstelle KI-Musik</string>
+    <string name="home_recent_creations">Aktuelle KI-Kreationen</string>
+    <string name="home_see_all">Alle ansehen</string>
+    <string name="home_recent_empty_hint">Erstelle Bilder, Videos, Musik oder Covers, um sie hier zu sehen</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_upgrade_pro">Auf Pro upgraden</string>
+    <string name="settings_upgrade_subtitle">Unbegrenzte Generierungen · Keine Wasserzeichen</string>
+    <string name="settings_upgrade">Upgraden</string>
+    <string name="settings_go_premium">Premium werden</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">Schalte alle Premium-Funktionen frei und genieße werbefrei</string>
+    <string name="settings_section_appearance">ERSCHEINUNGSBILD</string>
+    <string name="settings_section_account">KONTO</string>
+    <string name="settings_section_help">HILFE</string>
+    <string name="settings_dark_mode">Dunkler Modus</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_favourites">Favoriten</string>
+    <string name="settings_privacy">Datenschutz</string>
+    <string name="settings_terms">Nutzungsbedingungen</string>
+    <string name="settings_rate_app">App bewerten</string>
+    <string name="settings_share_app">App teilen</string>
+    <string name="settings_help_center">Hilfezentrum</string>
+    <string name="settings_about">Über</string>
+
+    <string name="premium_close">Schließen</string>
+    <string name="premium_slide_image">KI-Bildgenerator</string>
+    <string name="premium_slide_video">KI-Videogenerator</string>
+    <string name="premium_slide_music">KI-Musikgenerator</string>
+    <string name="premium_slide_edit">KI-Bearbeitungsstudio</string>
+    <string name="premium_feature_unlimited_title">Unbegrenzt</string>
+    <string name="premium_feature_unlimited_subtitle">Generierungen</string>
+    <string name="premium_feature_no_ads_title">Keine Werbung</string>
+    <string name="premium_feature_no_ads_subtitle">Erlebnis</string>
+    <string name="premium_feature_priority_title">Priorität</string>
+    <string name="premium_feature_priority_subtitle">Verarbeitung</string>
+    <string name="premium_feature_downloads_title">Hohe Qualität</string>
+    <string name="premium_feature_downloads_subtitle">Downloads</string>
+    <string name="premium_feature_early_title">Früher Zugang</string>
+    <string name="premium_feature_early_subtitle">Zu neuen Tools</string>
+    <string name="premium_unlock">Freischalten</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">Funktionen</string>
+    <string name="premium_best_choice">BESTE WAHL</string>
+    <string name="premium_plan_yearly">Jahresplan</string>
+    <string name="premium_plan_yearly_subtitle">Nur Rs 9.500 pro Jahr</string>
+    <string name="premium_plan_weekly">Wochenplan</string>
+    <string name="premium_plan_weekly_subtitle">Der Plan verlängert sich wöchentlich</string>
+    <string name="premium_per_week">Pro Woche</string>
+    <string name="premium_save_badge">80% sparen</string>
+    <string name="premium_trial_prefix">9500/Jahr - Nach</string>
+    <string name="premium_trial_highlight">3 Tage kostenlos</string>
+    <string name="premium_subscribe">Abonnieren</string>
+    <string name="premium_disclaimer">Dein Abonnement verlängert sich automatisch nach der kostenlosen Testphase. Du kannst jederzeit kündigen.</string>
+    <string name="premium_footer_links">Nutzungsbedingungen | Datenschutz | Abo kündigen</string>
+
+    <string name="error_prompt_required">Gib einen Prompt ein, bevor du generierst</string>
+    <string name="error_deapi_key_missing">deAPI-Schlüssel fehlt. Füge deapi.api.key in secrets.properties hinzu und baue das Projekt neu</string>
+    <string name="error_pollinations_key_missing">Pollinations-API-Schlüssel fehlt. Füge pollinations.api.key in secrets.properties hinzu</string>
+    <string name="error_voice_sample_required">Lade zuerst eine Stimmprobe hoch oder nimm sie auf (mind. 10s)</string>
+    <string name="error_audio_too_short">Die Audioprobe muss mindestens 10 Sekunden lang sein</string>
+    <string name="error_audio_too_long">Die Audioprobe muss kürzer als 60 Sekunden sein</string>
+    <string name="error_record_min_seconds">Nimm mindestens 10 Sekunden auf</string>
+
+    <string name="back">Zurück</string>
+    <string name="duration">Dauer</string>
+    <string name="style">Stil</string>
+    <string name="aspect_ratio">Seitenverhältnis</string>
+    <string name="mood">Stimmung</string>
+    <string name="genre">Genre</string>
+
+    <string name="image_generator_title">Bildgenerator</string>
+    <string name="image_generator_subtitle">Erstelle KI-Kunst aus Text</string>
+    <string name="image_prompt_label">Beschreibe dein Bild</string>
+    <string name="image_prompt_hint">Eine futuristische Cyberpunk-Stadt bei Nacht mit Neonlichtern auf nassen Straßen, Anime-Stil, ultra detailliert, 4K</string>
+    <string name="styles">Stile</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">Bild generieren</string>
+    <string name="generating_image">Bild wird generiert</string>
+
+    <string name="video_generator_title">Videogenerator</string>
+    <string name="video_generator_subtitle">Erstelle KI-Videos aus Text</string>
+    <string name="video_prompt_label">Video-Prompt</string>
+    <string name="camera_motion">Kamerabewegung</string>
+    <string name="generate_video">Video generieren</string>
+    <string name="generating_video">Video wird generiert</string>
+    <string name="recent_videos">Neueste Videos</string>
+
+    <string name="music_generator_title">Musikgenerator</string>
+    <string name="music_generator_subtitle">Erstelle KI-Musik aus Text</string>
+    <string name="music_prompt_label">Beschreibe deine Musik</string>
+    <string name="voice_style">Stimmstil</string>
+    <string name="generate_music">Musik generieren</string>
+    <string name="generating_music">Musik wird generiert</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">KI-Editor</string>
+    <string name="ai_edit_subtitle">Professionelle KI-Bearbeitungswerkzeuge</string>
+    <string name="ai_edit_search_hint">Was möchten Sie bearbeiten?</string>
+    <string name="ai_edit_tools_title">Bearbeitungswerkzeuge</string>
+    <string name="ai_edit_tools_count">%1$d Werkzeuge</string>
+    <string name="ai_edit_select_tool">Wählen Sie oben ein Werkzeug</string>
+    <string name="ai_edit_upload_title">Bild zum Bearbeiten hochladen</string>
+    <string name="ai_edit_upload_hint">JPG, PNG, WEBP bis 20 MB</string>
+    <string name="ai_edit_apply">Bearbeitung anwenden</string>
+    <string name="ai_edit_apply_tool">%1$s anwenden</string>
+    <string name="ai_edit_editing">Wird bearbeitet</string>
+    <string name="ai_edit_search">Suchen</string>
+    <string name="ai_edit_selected_image">Ausgewähltes Bild</string>
+    <string name="ai_edit_result_title">Bearbeitungsergebnis</string>
+    <string name="ai_edit_result_empty">Kein bearbeitetes Bild vorhanden</string>
+    <string name="ai_edit_edited_with">Bearbeitet mit %1$s</string>
+    <string name="ai_edit_before_after">Vorher &amp; Nachher</string>
+    <string name="ai_edit_original">Original</string>
+    <string name="ai_edit_edited">Bearbeitet</string>
+    <string name="ai_edit_download">Herunterladen</string>
+    <string name="ai_edit_share">Teilen</string>
+    <string name="ai_edit_edit_again">Erneut bearbeiten</string>
+    <string name="ai_edit_prompt_label">BEARBEITUNGS-PROMPT</string>
+    <string name="ai_edit_share_chooser">Bearbeitetes Bild teilen</string>
+    <string name="ai_edit_saved_gallery">In Galerie gespeichert</string>
+    <string name="ai_edit_download_failed">Download fehlgeschlagen</string>
+    <string name="ai_edit_failed">Bearbeitung fehlgeschlagen</string>
+    <string name="edit_tool_remove_bg">HG entfernen</string>
+    <string name="edit_tool_magic_eraser">Magischer Radierer</string>
+    <string name="edit_tool_ai_enhance">KI-Verbessern</string>
+    <string name="edit_tool_replace_obj">Objekt ersetzen</string>
+    <string name="edit_tool_upscaler">Hochskalieren</string>
+    <string name="edit_tool_face_enhance">Gesicht verbessern</string>
+    <string name="edit_tool_sky_replace">Himmel ersetzen</string>
+    <string name="edit_tool_colorize">Kolorieren</string>
+    <string name="edit_tool_bg_generator">HG generieren</string>
+    <string name="edit_tool_ai_expand">KI erweitern</string>
+
+    <string name="ai_cover_title">KI-Cover</string>
+    <string name="ai_cover_subtitle">Erstelle KI-Stimmen-Cover</string>
+    <string name="upload_your_voice">Stimme hochladen</string>
+    <string name="upload_voice_hint">Nimm eine Audioprobe auf oder lade sie hoch (mind. 10s)</string>
+    <string name="upload_audio">Audio hochladen</string>
+    <string name="record_audio">Audio aufnehmen</string>
+    <string name="stop_recording">Aufnahme stoppen</string>
+    <string name="choose_singer_style">Sängerstil wählen</string>
+    <string name="generate_cover">Cover generieren</string>
+    <string name="generating_cover">Cover wird generiert</string>
+    <string name="my_covers">Meine Covers</string>
+
+    <string name="library_title">Bibliothek</string>
+    <string name="library_tab_all">Alle</string>
+    <string name="library_tab_images">Bilder</string>
+    <string name="library_tab_videos">Videos</string>
+    <string name="library_tab_music">Musik</string>
+    <string name="library_tab_saved">Gespeichert</string>
+    <string name="library_empty">Noch keine Kreationen</string>
+    <string name="library_empty_saved">Noch keine gespeicherten Elemente</string>
+    <string name="favourites_title">Favoriten</string>
+    <string name="favourites_empty">Noch keine Favoriten</string>
+    <string name="nav_home">Start</string>
+    <string name="nav_ai_cover">KI-Cover</string>
+    <string name="nav_ai_edit">KI-Edit</string>
+    <string name="nav_ai_wallpaper">KI-Wallpaper</string>
+    <string name="nav_library">Bibliothek</string>
+    <string name="exit_title">App beenden?</string>
+    <string name="exit_subtitle">Möchten Sie die App wirklich verlassen? Kommen Sie jederzeit zurück, um mehr mit KI zu erstellen.</string>
+    <string name="exit_stay">Bleiben</string>
+    <string name="exit_confirm">Beenden</string>
+    <string name="press_back_again_to_exit">Zum Beenden erneut zurück tippen</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">Inhalt melden</string>
+    <string name="report_content_subtitle">Hilf uns, KI-generierte Inhalte sicher zu halten.</string>
+    <string name="report_reason_offensive">Beleidigender oder missbräuchlicher Inhalt</string>
+    <string name="report_reason_sexual">Sexueller oder unangemessener Inhalt</string>
+    <string name="report_reason_hate">Hass oder diskriminierender Inhalt</string>
+    <string name="report_reason_violent">Gewalttätiger oder expliziter Inhalt</string>
+    <string name="report_reason_other">Sonstiges</string>
+    <string name="report_cancel">Abbrechen</string>
+    <string name="report_submit">Meldung senden</string>
+    <string name="report_submitting">Meldung wird gesendet…</string>
+    <string name="report_success">Meldung erfolgreich gesendet. Vielen Dank für Ihr Feedback!</string>
+    <string name="report_failed">Meldung konnte nicht gesendet werden. Bitte versuchen Sie es erneut.</string>
+    <string name="report_retry">Wiederholen</string>
+    <string name="report_more_options">Weitere Optionen</string>
+    <string name="report_menu_item">Inhalt melden</string>
+    <string name="report_additional_details">Zusätzliche Details (erforderlich für Sonstiges)</string>
+    <string name="report_validation_select_reason">Bitte wählen Sie vor dem Absenden einen Grund aus.</string>
+    <string name="report_validation_provide_details">Bitte beschreiben Sie das Problem im Detailfeld.</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "pollinations_api_keys": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "deapi_api_keys": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "groq_api_keys": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "pollinations_base_url": "https://gen.pollinations.ai",
+  "pollinations_edit_url": "https://gen.pollinations.ai/v1/images/edits",
+  "pollinations_image_model": "flux",
+  "pollinations_edit_model": "kontext",
+  "pollinations_chat_url": "https://gen.pollinations.ai/v1/chat/completions",
+  "pollinations_chat_model": "openai",
+  "deapi_base_url": "https://api.deapi.ai",
+  "deapi_video_url": "https://api.deapi.ai/api/v2/videos/generations",
+  "deapi_video_animation_url": "https://api.deapi.ai/api/v2/videos/animations",
+  "deapi_music_url": "https://api.deapi.ai/api/v2/audio/music",
+  "deapi_speech_url": "https://api.deapi.ai/api/v2/audio/speech",
+  "deapi_jobs_url": "https://api.deapi.ai/api/v2/jobs",
+  "deapi_chat_url": "https://api.deapi.ai/api/v2/chat/completions",
+  "deapi_chat_model": "llama-3.3-70b",
+  "groq_base_url": "https://api.groq.com/openai/v1",
+  "groq_chat_url": "https://api.groq.com/openai/v1/chat/completions",
+  "grok_base_url": "https://api.x.ai/v1",
+  "grok_chat_url": "https://api.x.ai/v1/chat/completions",
+  "grok_chat_model": "grok-2-latest"
+}

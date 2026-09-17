@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">ตัวสร้างภาพ AI</string>
+    <string name="splash_title">AI Studio</string>
+    <string name="splash_tagline">สร้างทุกอย่างด้วย AI</string>
+    <string name="splash_loading">กำลังโหลดทรัพยากร…</string>
+
+    <string name="onboarding_title_1">เปลี่ยนไอเดียเป็นภาพ</string>
+    <string name="onboarding_desc_1">ปลุกจินตนาการของคุณให้มีชีวิตด้วย AI ที่น่าทึ่ง</string>
+    <string name="onboarding_button_1">เริ่มต้น</string>
+
+    <string name="onboarding_title_2">ทำให้เรื่องราวมีชีวิต</string>
+    <string name="onboarding_desc_2">เปลี่ยนไอเดียง่ายๆ เป็นวิดีโอ AI แบบภาพยนตร์ที่น่าประทับใจ</string>
+    <string name="onboarding_button_2">ถัดไป →</string>
+
+    <string name="onboarding_title_3">สร้างเพลงจากไอเดีย</string>
+    <string name="onboarding_desc_3">เปลี่ยนไอเดียของคุณเป็นเพลงที่ไม่ซ้ำใครด้วย AI</string>
+    <string name="onboarding_button_3">เริ่มสร้าง ✨</string>
+
+    <string name="onboarding_skip">ข้าม</string>
+
+    <string name="choose_language">เลือกภาษา</string>
+    <string name="language_done">เสร็จสิ้น</string>
+
+    <string name="home_greeting_morning">สวัสดีตอนเช้า 👋</string>
+    <string name="home_greeting_afternoon">สวัสดีตอนบ่าย 👋</string>
+    <string name="home_greeting_evening">สวัสดีตอนเย็น 👋</string>
+    <string name="home_title">Ai Studio</string>
+    <string name="home_pro">Pro</string>
+    <string name="home_image_generator_title">ตัวสร้างภาพ</string>
+    <string name="home_image_generator_subtitle">สร้างงานศิลปะ AI ที่สวยงามในไม่กี่วินาที</string>
+    <string name="home_image_generator_explore">สำรวจเลย</string>
+    <string name="home_video_generator_title">ตัวสร้างวิดีโอ</string>
+    <string name="home_video_generator_subtitle">สร้างวิดีโอ AI</string>
+    <string name="home_music_generator_title">ตัวสร้างเพลง</string>
+    <string name="home_music_generator_subtitle">สร้างเพลง AI</string>
+    <string name="home_recent_creations">ผลงาน AI ล่าสุด</string>
+    <string name="home_see_all">ดูทั้งหมด</string>
+    <string name="home_recent_empty_hint">สร้างรูป วิดีโอ เพลง หรือคัฟเวอร์เพื่อแสดงที่นี่</string>
+
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_upgrade_pro">อัปเกรดเป็น Pro</string>
+    <string name="settings_upgrade_subtitle">สร้างไม่จำกัด · ไม่มีลายน้ำ</string>
+    <string name="settings_upgrade">อัปเกรด</string>
+    <string name="settings_go_premium">อัปเกรด Premium</string>
+    <string name="settings_go_premium_pro">PRO</string>
+    <string name="settings_go_premium_subtitle">ปลดล็อกฟีเจอร์ Premium ทั้งหมดและใช้งานแบบไม่มีโฆษณา</string>
+    <string name="settings_section_appearance">ลักษณะ</string>
+    <string name="settings_section_account">บัญชี</string>
+    <string name="settings_section_help">ช่วยเหลือ</string>
+    <string name="settings_dark_mode">โหมดมืด</string>
+    <string name="settings_language">ภาษา</string>
+    <string name="settings_favourites">รายการโปรด</string>
+    <string name="settings_privacy">ความเป็นส่วนตัว</string>
+    <string name="settings_terms">ข้อกำหนดการให้บริการ</string>
+    <string name="settings_rate_app">ให้คะแนนแอป</string>
+    <string name="settings_share_app">แชร์แอป</string>
+    <string name="settings_help_center">ศูนย์ช่วยเหลือ</string>
+    <string name="settings_about">เกี่ยวกับ</string>
+
+    <string name="premium_close">ปิด</string>
+    <string name="premium_slide_image">ตัวสร้างภาพ AI</string>
+    <string name="premium_slide_video">ตัวสร้างวิดีโอ AI</string>
+    <string name="premium_slide_music">ตัวสร้างเพลง AI</string>
+    <string name="premium_slide_edit">สตูดิโอแก้ไข AI</string>
+    <string name="premium_feature_unlimited_title">ไม่จำกัด</string>
+    <string name="premium_feature_unlimited_subtitle">การสร้าง</string>
+    <string name="premium_feature_no_ads_title">ไม่มีโฆษณา</string>
+    <string name="premium_feature_no_ads_subtitle">ประสบการณ์</string>
+    <string name="premium_feature_priority_title">ลำดับความสำคัญ</string>
+    <string name="premium_feature_priority_subtitle">การประมวลผล</string>
+    <string name="premium_feature_downloads_title">คุณภาพสูง</string>
+    <string name="premium_feature_downloads_subtitle">ดาวน์โหลด</string>
+    <string name="premium_feature_early_title">เข้าถึงก่อน</string>
+    <string name="premium_feature_early_subtitle">เครื่องมือใหม่</string>
+    <string name="premium_unlock">ปลดล็อก</string>
+    <string name="premium_premium_word">Premium</string>
+    <string name="premium_features">ฟีเจอร์</string>
+    <string name="premium_best_choice">ตัวเลือกที่ดีที่สุด</string>
+    <string name="premium_plan_yearly">แผนรายปี</string>
+    <string name="premium_plan_yearly_subtitle">เพียง Rs 9,500 ต่อปี</string>
+    <string name="premium_plan_weekly">แผนรายสัปดาห์</string>
+    <string name="premium_plan_weekly_subtitle">แผนจะต่ออายุทุกสัปดาห์</string>
+    <string name="premium_per_week">ต่อสัปดาห์</string>
+    <string name="premium_save_badge">ประหยัด 80%</string>
+    <string name="premium_trial_prefix">9500/ปี - หลังจาก</string>
+    <string name="premium_trial_highlight">ทดลองใช้ฟรี 3 วัน</string>
+    <string name="premium_subscribe">สมัครสมาชิก</string>
+    <string name="premium_disclaimer">การสมัครของคุณจะต่ออายุอัตโนมัติเมื่อสิ้นสุดช่วงทดลองใช้ คุณสามารถยกเลิกได้ทุกเมื่อ</string>
+    <string name="premium_footer_links">ข้อกำหนดการใช้บริการ | นโยบายความเป็นส่วนตัว | ยกเลิกการสมัคร</string>
+
+    <string name="error_prompt_required">กรอก prompt ก่อนสร้าง</string>
+    <string name="error_deapi_key_missing">ไม่พบคีย์ deAPI เพิ่ม deapi.api.key ใน secrets.properties แล้ว Rebuild Project</string>
+    <string name="error_pollinations_key_missing">ไม่พบคีย์ Pollinations เพิ่ม pollinations.api.key ใน secrets.properties</string>
+    <string name="error_voice_sample_required">อัปโหลดหรือบันทึกตัวอย่างเสียงก่อน (อย่างน้อย 10 วินาที)</string>
+    <string name="error_audio_too_short">ตัวอย่างเสียงต้องมีความยาวอย่างน้อย 10 วินาที</string>
+    <string name="error_audio_too_long">ตัวอย่างเสียงต้องน้อยกว่า 60 วินาที</string>
+    <string name="error_record_min_seconds">บันทึกอย่างน้อย 10 วินาที</string>
+
+    <string name="back">กลับ</string>
+    <string name="duration">ระยะเวลา</string>
+    <string name="style">สไตล์</string>
+    <string name="aspect_ratio">อัตราส่วนภาพ</string>
+    <string name="mood">อารมณ์</string>
+    <string name="genre">แนวเพลง</string>
+
+    <string name="image_generator_title">ตัวสร้างภาพ</string>
+    <string name="image_generator_subtitle">สร้างงานศิลปะ AI จากข้อความ</string>
+    <string name="image_prompt_label">อธิบายภาพของคุณ</string>
+    <string name="image_prompt_hint">เมืองไซเบอร์พังค์ในอนาคตยามค่ำคืน พร้อมไฟนีอนสะท้อนบนถนนเปียก สไตล์อนิเมะ รายละเอียดสูง 4K</string>
+    <string name="styles">สไตล์</string>
+    <string name="char_counter">%1$d / %2$d</string>
+    <string name="generate_image">สร้างภาพ</string>
+    <string name="generating_image">กำลังสร้างภาพ</string>
+
+    <string name="video_generator_title">ตัวสร้างวิดีโอ</string>
+    <string name="video_generator_subtitle">สร้างวิดีโอ AI จากข้อความ</string>
+    <string name="video_prompt_label">Prompt วิดีโอ</string>
+    <string name="camera_motion">การเคลื่อนไหวกล้อง</string>
+    <string name="generate_video">สร้างวิดีโอ</string>
+    <string name="generating_video">กำลังสร้างวิดีโอ</string>
+    <string name="recent_videos">วิดีโอล่าสุด</string>
+
+    <string name="music_generator_title">ตัวสร้างเพลง</string>
+    <string name="music_generator_subtitle">สร้างเพลง AI จากข้อความ</string>
+    <string name="music_prompt_label">อธิบายเพลงของคุณ</string>
+    <string name="voice_style">สไตล์เสียง</string>
+    <string name="generate_music">สร้างเพลง</string>
+    <string name="generating_music">กำลังสร้างเพลง</string>
+
+    <!-- AI Edit -->
+    <string name="ai_edit_title">ตัวแก้ไข AI</string>
+    <string name="ai_edit_subtitle">เครื่องมือแก้ไขระดับมืออาชีพด้วย AI</string>
+    <string name="ai_edit_search_hint">คุณต้องการแก้ไขอะไร?</string>
+    <string name="ai_edit_tools_title">เครื่องมือแก้ไข</string>
+    <string name="ai_edit_tools_count">%1$d เครื่องมือ</string>
+    <string name="ai_edit_select_tool">เลือกเครื่องมือด้านบน</string>
+    <string name="ai_edit_upload_title">อัปโหลดภาพเพื่อแก้ไข</string>
+    <string name="ai_edit_upload_hint">JPG, PNG, WEBP สูงสุด 20MB</string>
+    <string name="ai_edit_apply">ใช้การแก้ไข</string>
+    <string name="ai_edit_apply_tool">ใช้ %1$s</string>
+    <string name="ai_edit_editing">กำลังแก้ไข</string>
+    <string name="ai_edit_search">ค้นหา</string>
+    <string name="ai_edit_selected_image">ภาพที่เลือก</string>
+    <string name="ai_edit_result_title">ผลลัพธ์การแก้ไข</string>
+    <string name="ai_edit_result_empty">ไม่มีภาพที่แก้ไขให้แสดง</string>
+    <string name="ai_edit_edited_with">แก้ไขด้วย %1$s</string>
+    <string name="ai_edit_before_after">ก่อนและหลัง</string>
+    <string name="ai_edit_original">ต้นฉบับ</string>
+    <string name="ai_edit_edited">แก้ไขแล้ว</string>
+    <string name="ai_edit_download">ดาวน์โหลด</string>
+    <string name="ai_edit_share">แชร์</string>
+    <string name="ai_edit_edit_again">แก้ไขอีกครั้ง</string>
+    <string name="ai_edit_prompt_label">พรอมต์การแก้ไข</string>
+    <string name="ai_edit_share_chooser">แชร์ภาพที่แก้ไข</string>
+    <string name="ai_edit_saved_gallery">บันทึกลงแกลเลอรีแล้ว</string>
+    <string name="ai_edit_download_failed">ดาวน์โหลดล้มเหลว</string>
+    <string name="ai_edit_failed">แก้ไขล้มเหลว</string>
+    <string name="edit_tool_remove_bg">ลบพื้นหลัง</string>
+    <string name="edit_tool_magic_eraser">ยางลบเวทมนตร์</string>
+    <string name="edit_tool_ai_enhance">เพิ่มคุณภาพ AI</string>
+    <string name="edit_tool_replace_obj">แทนที่วัตถุ</string>
+    <string name="edit_tool_upscaler">ขยายภาพ</string>
+    <string name="edit_tool_face_enhance">ปรับใบหน้า</string>
+    <string name="edit_tool_sky_replace">เปลี่ยนท้องฟ้า</string>
+    <string name="edit_tool_colorize">ใส่สี</string>
+    <string name="edit_tool_bg_generator">สร้างพื้นหลัง</string>
+    <string name="edit_tool_ai_expand">ขยายด้วย AI</string>
+
+    <string name="ai_cover_title">Cover AI</string>
+    <string name="ai_cover_subtitle">สร้าง cover เพลงด้วยเสียง AI</string>
+    <string name="upload_your_voice">อัปโหลดเสียงของคุณ</string>
+    <string name="upload_voice_hint">บันทึกหรืออัปโหลดตัวอย่างเสียง (อย่างน้อย 10 วินาที)</string>
+    <string name="upload_audio">อัปโหลดเสียง</string>
+    <string name="record_audio">บันทึกเสียง</string>
+    <string name="stop_recording">หยุดบันทึก</string>
+    <string name="choose_singer_style">เลือกสไตล์นักร้อง</string>
+    <string name="generate_cover">สร้าง cover</string>
+    <string name="generating_cover">กำลังสร้าง cover</string>
+    <string name="my_covers">Cover ของฉัน</string>
+
+    <string name="library_title">ไลบรารี</string>
+    <string name="library_tab_all">ทั้งหมด</string>
+    <string name="library_tab_images">ภาพ</string>
+    <string name="library_tab_videos">วิดีโอ</string>
+    <string name="library_tab_music">เพลง</string>
+    <string name="library_tab_saved">ที่บันทึก</string>
+    <string name="library_empty">ยังไม่มีผลงาน</string>
+    <string name="library_empty_saved">ยังไม่มีรายการที่บันทึก</string>
+    <string name="favourites_title">รายการโปรด</string>
+    <string name="favourites_empty">ยังไม่มีรายการโปรด</string>
+    <string name="nav_home">หน้าแรก</string>
+    <string name="nav_ai_cover">คัฟเวอร์ AI</string>
+    <string name="nav_ai_edit">แก้ไข AI</string>
+    <string name="nav_ai_wallpaper">วอลเปเปอร์ AI</string>
+    <string name="nav_library">คลัง</string>
+    <string name="exit_title">ออกจากแอป?</string>
+    <string name="exit_subtitle">แน่ใจหรือว่าต้องการออก? กลับมาได้ทุกเมื่อเพื่อสร้างต่อด้วย AI</string>
+    <string name="exit_stay">อยู่ต่อ</string>
+    <string name="exit_confirm">ออก</string>
+    <string name="press_back_again_to_exit">กดย้อนกลับอีกครั้งเพื่อออก</string>
+
+    <!-- Report Content -->
+    <string name="report_content_title">รายงานเนื้อหา</string>
+    <string name="report_content_subtitle">ช่วยเรารักษาความปลอดภัยของเนื้อหาที่สร้างโดย AI</string>
+    <string name="report_reason_offensive">เนื้อหาก้าวร้าวหรือไม่เหมาะสม</string>
+    <string name="report_reason_sexual">เนื้อหาทางเพศหรือไม่เหมาะสม</string>
+    <string name="report_reason_hate">เนื้อหาแสดงความเกลียดชังหรือเลือกปฏิบัติ</string>
+    <string name="report_reason_violent">เนื้อหารุนแรงหรือภาพกราฟิก</string>
+    <string name="report_reason_other">อื่นๆ</string>
+    <string name="report_cancel">ยกเลิก</string>
+    <string name="report_submit">ส่งรายงาน</string>
+    <string name="report_submitting">กำลังส่งรายงาน…</string>
+    <string name="report_success">ส่งรายงานสำเร็จแล้ว ขอขอบคุณสำหรับความคิดเห็นของคุณ!</string>
+    <string name="report_failed">ส่งรายงานไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</string>
+    <string name="report_retry">ลองอีกครั้ง</string>
+    <string name="report_more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="report_menu_item">รายงานเนื้อหา</string>
+    <string name="report_additional_details">รายละเอียดเพิ่มเติม (จำเป็นสำหรับอื่นๆ)</string>
+    <string name="report_validation_select_reason">โปรดเลือกเหตุผลก่อนส่ง</string>
+    <string name="report_validation_provide_details">โปรดระบุรายละเอียดในช่องข้อความ</string>
+</resources>
